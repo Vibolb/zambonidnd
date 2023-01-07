@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Potions</name>
+		<description></description>
+		<update version="0.0.2">
+			<file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-potions.xml" name="items-potions.xml" />
+		</update>
+	</info>
+    <element name="Potion of Darkvision (Weak Lasting)" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_MAGIC_ITEM_WEAK_LASTING_POTION_OF_DARKVISION">		
+        <description>
+            <p>
+                <em>
+                    Ya think you'll be less afraid of the dark once you know what's in it? Ah! We'll see… well… you will.
+                </em>
+            </p>
+            <p>
+                When you drink this potion, you gain darkvision for up to 30 feet for 8 hours. 
+                If you drink this and you already have darkvision, its range is increased by 15 feet. 
+                Illusory black circles form around the magic-imbued pine nuts floating in this dark purple 
+                liquid to create ephemeral feline irises that stare at the closest living being.</p>
+        </description>
+        <setters>
+            <set name="keywords">darkvision</set>
+            <set name="category">Potions</set>
+            <set name="cost" currency="gp">25</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Common</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+    <element name="Spoiled Cocktail of Condensed Energy" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_MAGIC_ITEM_SPOILED_COCKTAIL_OF_CONDENSED_ENERGY" >
+        <description>
+            <p>
+                Drinking this potion allows you to benefit from a short rest instantly. 
+                The maximum of HD you can spend is equal to half your maximum, rounded down. 
+                Your movement speed increase by 10 feet.
+            </p> 
+            <p>
+                When you drink this potion, make a 
+                Constitution saving throw. The movement speed increase lasts for a number of 
+                minutes equal to three times the result of the saving throw, after which you 
+                gain one level of exhaustion, and your movement speed is reduced by 10 feet.
+            </p> 
+            <p>
+                The movement speed reduction lasts until you recover from that level of exhaustion. 
+                Drinking more than one of these potions between long rests may have adverse effects.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">energy, cocaine, blue</set>
+            <set name="category">Potions</set>
+            <set name="cost" currency="gp">180</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Rare</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+</elements>

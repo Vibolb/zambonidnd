@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Armor</name>
+		<update version="1.0.0.1">
+			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-armor.xml" />
+		</update>
+	</info>
+	
+	<!-- place your elements here -->
+	<element name="Mistwalker Armor" id="ID_DNDC1_MAGIC_ITEM_MISTWALKER_ARMOR" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+            <p>
+                <em>
+                    Seemingly endless heat, horror and death poured from the Abyss' 
+                    Maw into the old world during the invasion. Fiends adapted faster
+                    than us to the everlasting mist that covered the coast. To 
+                    survive, we had to learn how to use their power against them, 
+                    and that was through their hide. Put yourself in someone's shoes 
+                    or, as some say, skin, and you'll understand them.
+                </em>
+            </p>
+            <p>
+                This dark leather armor releases thin wisps of fog from its seams. 
+                While wearing this armor, you can use an action to cast the fog cloud 
+                spell (2nd-level version) from it. Once this property of the armor 
+                has been used, it can't be used again until the next dawn.
+            </p>
+            <p>
+                In addition, fog doesn't obscure your vision, and while you're in 
+                opaque fog and use the Dash, Disengage or Dodge action, you can 
+                gain the benefit of all three. You can gain the benefit of this 
+                feature up to half your level times per long rest. 
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">leather, armor</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">body</set>
+            <set name="type" addition="light">Armor</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT, Leather</set>
+            <set name="weight" lb="8">8 lb</set>
+        </setters>
+        <rules>
+            <!-- Fog Cloud spell -->
+            <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" />
+        </rules>
+        
+    </element>
+    <element name="Aegis of the Pleased Gods" id="ID_DNDC1_MAGIC_ITEM_AEGIS_OF_THE_PLEASED_GODS" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+            <p>
+                <em>
+                    May it be a light to you in dark places, when all other lights go out.
+                </em>
+            </p>
+            <p>
+                This shield emits a faint, holy glow when wielded and recognizes 
+                your devotion to a higher power. When you attune to this shield, 
+                the emblem adorning its face changes to one that represents your 
+                chosen deity, allowing you to use the shield as a holy symbol.
+            </p>
+            <p>
+                While wielding the shield, you can speak its command word 
+                as a bonus action to cause it to shatter into countless 
+                fragments of pure light. The pieces of light protect you 
+                as if you were wielding the shield, leaving your hands free. 
+                The light surrounds you for 1 minute, until you dismiss the 
+                effect as a bonus action, or until you fall unconscious or die, 
+                at which point the shield rematerializes on the ground at your 
+                feet or into your hand if you have one free. If your holy symbol 
+                is emblazoned or attached to the shield, it floats prominently amidst 
+                the shards of light and continues to function as a spellcasting focus. 
+                While in this form: 
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        The shield gives you a +1 bonus to your AC in addition to the shield's 
+                        normal bonus to AC. 
+                    </li>
+                    <li>
+                        The surrounding shards of light cast bright light in a 20 foot radius 
+                        and dim light for another 20 feet. Undead creatures have disadvantage
+                         on attack rolls made against you while you're surrounded by the light
+                          in this way. 
+                    </li>
+                    <li>
+                        When you activate this feature, you emit a pulse of blinding divine light.
+                        Creatures of your choice in the bright light radius must succeed a 
+                        Constitution saving throw or be blinded until the end of your next 
+                        turn. The DC equals 8 + twice your Religion bonus. While the light 
+                        lasts, at the beginning of your turn, you can emit a new pulse. You 
+                        can do that a number of times equals to your proficiency bonus.
+                    </li>
+                </ul>
+            </p>
+            <p>Once this property has been used, it can't be used again until the following dawn.</p>
+        </description>
+        <setters>
+            <set name="keywords">shield</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">body</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+            <set name="weight" lb="6">6 lb.</set>
+        </setters>
+    </element>
+    <element name="Doain's Prayer of Providence" type="Magic Item" id="ID_DNDC1_ARMOR_DOAINS_PRAYER_OF_PROVIDENCE" source="DnDCustomContent - Campaign One">
+        <description>
+            <p><em>
+                Conviction is worthless unless it is converted into conduct.
+            </em></p>
+            <p>
+                This ample autumnal orange robe that fused with your hide armor
+                following Solaris' blessing comes in pair with an oak tree 
+                branch and leaves crown. The crawling things of the earth, 
+                such as insects, snakes, and vermin, are attracted to this 
+                item. When any part of any of its forms is placed on natural 
+                ground, such creatures will scurry toward it like moths drawn 
+                to the flame.
+            </p>
+            <p>
+                This armor (robe) is naught but a prayer written on a scrap of vellum and 
+                decorated with religious scriptures and ornamental oak leaves representing 
+                the god Silvanus. Doain may spend 1 minute at to read the prayer out loud. 
+                At the end, this armor will manifest and encase him, including the crown. 
+                The armor disappears if he acts in any way that is not in accordance with
+                Silvanus' teachings. While the armor is manifested, he can utter the prayer 
+                to revert it back to its vellum prayer form.
+            </p>
+            <p>
+                While the armor is manifested, he may treat it as a <em>+1 armor</em> when in direct 
+                sunlight and has a +1 bonus to <em>performance</em> checks. He loses both of 
+                these benefits if the crown is not worn on his head. He always knows the 
+                direction of the crown if is on the same plane as him.
+            </p>
+            <div class="reference">
+				<div element="ID_DNDC1_INFORMATION_FUSED_ARMOR" />
+			</div>
+        </description>
+        <setters>
+            <set name="keywords">armor, hide, doain</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="slot">body</set>
+            <set name="type" addition="medium">Armor</set>
+            <set name="rarity">Uncommon</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM, Hide</set>
+            <set name="weight" lb="12">12 lb.(manifested)</set>
+        </setters>
+    </element>
+</elements>

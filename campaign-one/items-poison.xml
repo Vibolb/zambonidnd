@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Poison</name>
+		<description></description>
+		<update version="1.0.0.1">
+			<file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-poison.xml" name="items-poison.xml" />
+		</update>
+	</info>
+	<!-- poison -->
+	<element name="Ettercap Venom" type="Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ITEM_POISON_ETTERCAP_POISON">
+		<description>
+			<p>
+				<em>
+					A forest infested with ettercaps transforms into a gloomy place, choked with webs, filled with corpses
+					 hanging from trees and infested with giant spiders, giant insects, and other sinister predators.
+				</em>
+			</p>
+			<p>A creature can spend an action to coat 1 melee weapon, or 3 pieces of ammunition with this poison. 
+                The poison lasts for 1 minute, or until it successfully affects a target. A creature hit with a 
+                weapon coated with this poison must succeed on a DC 11 Constitution saving throw or take 1d8 poison
+                damage and be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of 
+                its turns, ending the effect on itself on a success.
+			</p>
+            <div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injure,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+            <set name="rarity">Uncommon</set>
+		</setters>
+		<sheet alt="Ettercap Venom (Injury)" />
+	</element>
+</elements>

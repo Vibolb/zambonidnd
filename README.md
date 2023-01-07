@@ -1,12 +1,10 @@
-# dndcustomcontent repository
-Additional content added by new TTRPG enjoyers, intended to extend the existing [Aurora](https://aurorabuilder.com/) character builder.
-
-Forked from the template respository provided by aurorabuilder: https://github.com/aurorabuilder/repository-template.git
+# zambonidnd repository
+Additional content added by new TTRPG enjoyers.
 
 ---
 
 ## Index files within this repository
-- Homebrew content for campaign I - index url: https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one.index
+- Homebrew content for campaign I - index url: https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one.index
 
 ---
 

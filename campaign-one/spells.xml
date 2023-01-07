@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+    <info>
+        <name>Spells</name>
+        <update version="1.0.4.0">
+            <file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/spells.xml" name="spells.xml" />
+        </update>
+    </info>
+    <element name="A Tooth for a Tooth" id="ID_DNDC1_SPELL_A_TOOTH_FOR_A_TOOTH" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Lex Talionis</supports>
+        <description>
+            <p>You stab your attacker in retaliation, attempting to siphon their life force to strengthen your own. Make a melee spell attack or a melee attack with Lex Talionis against the creature whose attack triggered this reaction. If the attack hits, the weapon deals its regular damage plus 1d4 necrotic damage, and grants you an amount of temporary hit points equal to the amount of additional necrotic damage dealt</p>
+            <p class="indent">The spell's additional necrotic damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4) and 17th level (4d4).</p>
+        </description>
+        <setters>
+            <set name="keywords" />
+            <set name="level">0</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 reaction, which you take when you are hit by a melee attack or a melee spell attack.</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">5 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A weapon</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="A Eye for an Eye" id="ID_DNDC1_SPELL_AN_EYE_FOR_AN_EYE" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Lex Talionis</supports>
+        <description>
+            <p>When a creature you can see within 60 feet of you hits you with a ranged attack or a ranged spell attack, you command Lex Talionis' eye to glare at it as a reaction. The target must succeed a DC 12 Constitution saving throw or take 1d6 necrotic damage. A creature that cannot see you automatically succeeds. On a failed save, a creature <b>made of flesh</b> begins to stiffens as some of its cells turn to stone. Its speed is halved and it has disadvantage on Dexterity saving throws for 1 minute. It can repeat the saving throw at the end of each subsequent turn, ending the effect on a successful save</p>
+            <p class="indent">
+                The spell's damage increases by 1d6 and its DC by 1 when you reach 5th level (2d6/DC 13), 11th level (3d6/DC 14) and 17th level (4d6/DC 15).
+            </p>
+        </description>
+        <setters>
+            <set name="keywords" />
+            <set name="level">0</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 reaction, which you take when you are hit by a ranged attack or a ranged spell attack</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A weapon</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Skeletal Tail" id="ID_DNDC1_SPELL_SKELETAL_TAIL" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Cleric, Druid, Warlock, Wizard</supports>
+        <description>
+            <p>You grow a long, lizard-like tail made of sharpened bones. As a reaction on to an enemy moving in a 20 feet radius around you,
+                you can use the tail to try and pierce that creature. It must succeed a Dexterity saving throw, or take 2d4 piercing damage as
+                the tail pierces it, the tail then retracts and pulls the creature in a space adjacent to yours.
+            </p>
+            <p>
+                <strong>At Higher Levels</strong> WHen you cast this spell using a spell slot of 3rd level or higher, the damage increases
+                by 2d4 for each slot above the 2nd level.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">Cleric, Druid, Warlock, Wizard</set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A lizard's corpse</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Slime Tentacle" id="ID_DNDC1_SPELL_SLIME_TENTACLE" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>
+                You grow a slimy tentacle as an extension of yout body. Make a melee spell attack roll against a creature within range.
+                It takes 2d4 acid damage and it must make a Dexterity saving throw. On failed save, it is restrained by the pseudopod until
+                the start of your next turn.
+            </p>
+            <p>
+                <strong>At Higher Levels </strong>When you cast this spell using a spell slot of 2nd level or higher,the damage increases by 2d4
+                for each slot above the 1st level.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">bard, cleric, druid, sorcerer, warlock, wizard</set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A small amount of slime</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Weakening Corruption" id="ID_DNDC1_SPELL_WEAKENING_CORRUPTION" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>
+                Target a creature within range. It must succeed on a Constitution saving throw or take 1d4 necrotic damage as well
+                as having its AC reduced by 1d4 against the next attack roll made against it.
+            </p>
+            <p>
+                This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4) and 17th level (4d4).
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">bard, cleric, druid, sorcerer, warlock, wizard</set>
+            <set name="level">0</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">None</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Summon Draconic Spirit" id="ID_DNDC1_SPELL_SUMMON_DRACONIC_SPIRIT" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>
+                You call forth a draconic spirit. It manifests in an unoccupied 
+                space that you can see within range. This corporeal form uses 
+                the Draconic Spirit stat block. When you cast this spell, choose 
+                a family of dragon: chromatic, gem, or metallic. The creature resembles 
+                a dragon of the chosen family, which determines certain traits in 
+                its stat block. The creature disappears when it drops to 0 hit points 
+                or when the spell ends.
+            </p>
+            <p>
+                The creature is an ally to you and your companions. In combat, 
+                the creature shares your initiative count, but it takes its turn
+                immediately after yours. It obeys your verbal commands (no action 
+                required by you). If you don't issue any, it takes the Dodge action
+                and uses its move to avoid danger.
+            </p>
+            <p>
+                <em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block.
+            </p>
+			<div class="reference">
+				<div element="ID_DNDC1_INFORMATION_SUMMON_DRACONIC_SPIRIT_STATBLOCK" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">5</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an object with the image of a dragon engraved on it, worth at least 500 gp</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Gale Weapon" id="ID_DNDC1_SPELL_GALE_WEAPON" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Ranger</supports>
+        <description>
+            <p>
+                You touch one non-magical melee or ranged martial
+                weapon that you are holding and envelop it in condensed
+                whirlwinds. For the duration of this spell, the weapon 
+                is considered magical and gains a +1 bonus to attack and
+                damage rolls made with it. This effect is suppressed for 
+                a weapon while you aren't holding it.
+            </p>
+            <p>
+                In addition, attacks made using a weapon under the effects 
+                of this spell gain the following benefits based on whether it 
+                is a melee or ranged weapon. <strong>Melee Weapon</strong>.
+                The reach is extended by 5 feet for attacks mafe with this weapon.
+                <strong>Ranged Weapon</strong>. The attack ignores disadvantage caused
+                by long-range, being underwater, or the ffects of wind, and the weapon
+                returns to one of your free hands at the end of your turn
+                if it has the <em>thrown</em> property.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords" />
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">None</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Glide" id="ID_DNDC1_SPELL_GLIDE" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard</supports>
+        <description>
+            <p>
+                You weave magic in a swirl as you fall, creating an invisible,
+                sheet of force much like a glider or parachute in one
+                or two of your hands that allows you to slow your descent and 
+                convert it to horizontal movement.
+            </p>
+            <p>
+                Until the spell ends, you fall no faster than 100 feet per round 
+                and you do not take falling damage. While you are holding
+                 the glider with two hands, you can move up to 2 feet horizontally 
+                 for every 1 foot you descend while falling.
+            </p>
+            <p>
+                You aerial movement using this spell is highly affected by air currents. 
+                You can be blown off-course if the wind around you is significantly 
+                unfavorable. If you are no longer holding the glider at any time, the spell
+                 ends. When the spell ends, you fall if you are still aloft, unless you can
+                  stop the fall.
+            </p>
+            <p><strong>At Higher Levels.</strong> When you 
+                cast this spell using a spell slot of 2nd level
+                , the maximum duration increases to 10 minutes. 
+                A slot of 3rd level or higher increases it instead
+                 to 1 hour.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">glide, fly</set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 reaction, taken when you fall</set>
+            <set name="range">Self</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">None</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Swoop" id="ID_DNDC1_SPELL_SWOOP" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Artificer, Druid, Ranger, Sorcerer, Wizard</supports>
+        <description>
+            <p>
+                You take into the air in a burst of brief magical flight. 
+                You have a 60 foot flying speed for this turn only. You 
+                fall if you are still aloft when the turn ends, unless 
+                you can stop the fall. 
+            </p>
+        </description>
+        <setters>
+                <set name="keywords">Swoop, fly</set>
+                <set name="level">1</set>
+                <set name="school">Transmutation</set>
+                <set name="time">1 reaction, taken immediately after 
+                    the start of your turn
+                </set>
+                <set name="range">Self</set>
+                <set name="duration">1 turn</set>
+                <set name="hasVerbalComponent">true</set>
+                <set name="hasSomaticComponent">true</set>
+                <set name="hasMaterialComponent">true</set>
+                <set name="materialComponent">A single leaf</set>
+                <set name="isConcentration">false</set>
+                <set name="isRitual">false</set>
+            </setters>
+    </element>
+    <element name="Cyclone" id="ID_DNDC1_SPELL_CYCLONE" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>
+                A swirling coil of fierce wind rises around one creature
+                 that you can see within range and attempt to lift them into
+                  the sky. The target must make a Strength saving throw. On 
+                  a failure, the target takes 5d9 bludgeonning damage and if the 
+                  target is Large or smaller, it is lifted 30 feet up into the air.
+                   It remains aloft until the end of your next turn when the spell 
+                   ends, at which point it is dropped and begins to fall. While held
+                    aloft by this spell, a creature is restrained if it cannot fly. If 
+                    the creature can fly it may make an additional Strength saving throw 
+                    on its own turn to attempt to break free from the cyclone. On a 
+                    successful save, the target takes half damage and isn't launched airborne.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">cyclone</set>
+            <set name="level">4</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">120 feet</set>
+            <set name="duration">Concentration, up to 1 round</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">None</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Flowing Armor - Air" id="ID_DNDC1_SPELL_FLOWING_ARMOR_AIR" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Druid</supports>
+        <description>
+            <p>
+                An armor made of flowing air covers your body. 
+                For the duration your AC becomes 13 + your Dexterity 
+                modifier. You may hover up to 2 inches above the ground 
+                instead of walking on it, this exerts a one tenth of the 
+                usual force under each of your foot. Your movement speed 
+                increases by 5 feet. Whenever you are targeted by a melee 
+                weapon attack you can use your reaction to move 5 feet in 
+                any direction, causing the attack to potentially miss you 
+                if you leave its range. You can't use this reaction if you 
+                already spent the extra movement speed this turn, and using 
+                it lowers your movement speed by 5 feet until the beginning 
+                of your next turn. Once you've used this reaction 3 times, 
+                the spell ends.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">Druid, armor</set>
+            <set name="level">2</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">8 hours</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">None</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Nystul's Magic Aura" id="ID_DNDC1_SPELL_NYSTULS_MAGIC_AURA" source="DnDCustomContent - Campaign One" type="Spell">
+        <supports>Wizard</supports>
+        <description>
+            <p>
+                You place an illusion on a creature or an object you 
+                touch so that divination spells reveal false information 
+                about it. The target can be a willing creature or an object 
+                that isn't being carried or worn by another creature. 
+            </p>
+            <p>
+                When you cast the spell, choose one or both of the following
+                 effects. The effect lasts for the duration. If you cast this
+                 spell on the same creature or object every day for 30 days, 
+                 placing the same effect on it each time, the illusion lasts 
+                 until it is dispelled.
+            </p>
+            <p>
+                <strong>False Aura.</strong> You change the way the target 
+                appears to spells and magical effects, such as Detect Magic, 
+                that detect magical auras. You can make a nonmagical object 
+                appear magical, a magical object appear nonmagical, or change 
+                the object's magical aura so that it appears to belong to a 
+                specific school of magic that you choose. When you use this 
+                effect on an object, you can make the false magic apparent 
+                to any creature that handles the item.
+            </p>
+            <p>
+                <strong>Mask.</strong> You change the way the target appears 
+                to spells and magical effects that detect creature types, 
+                such as a paladin's Divine Sense or the trigger of a symbol 
+                spell. You choose a creature type and other spells and magical 
+                effects treat the target as if it were a creature of that type 
+                or of that alignment.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">nystul, wizard, armor</set>
+            <set name="level">2</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">24 hours</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A small square of silk</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Word of Censure" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_WORD_OF_CENSURE">
+        <supports>Cleric</supports>
+        <description>
+            <p>
+                You deliver a stern word of rebuke, empowered by your consecration into holy mysteries, against a creature within
+                range that can understand a language (not necessarily a language you speak). The target must succeed a Wisdom 
+                saving throw or take 1d6 psychic damage. If it fails this saving throw and ends its next turn closer to you than 
+                it began that turn, it suffers the cantrip's damage again (roll the damage a second time).
+            </p>
+            <p>
+                The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+            </p>
+        </description>
+        <setters>
+          <set name="keywords"></set>
+          <set name="level">0</set>
+          <set name="school">Abjuration</set>
+          <set name="time">1 action</set>
+          <set name="duration">1 round</set>
+          <set name="range">30 feet</set>
+          <set name="hasVerbalComponent">true</set>
+          <set name="hasSomaticComponent">false</set>
+          <set name="hasMaterialComponent">false</set>
+          <set name="materialComponent">None</set>
+          <set name="isConcentration">false</set>
+          <set name="isRitual">false</set>
+        </setters>
+      </element>
+    <element name="Faerie's Blessing" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_FAERIES_BLESSING">
+        <supports>Bard, Druid, Ranger</supports>
+        <description>
+            <p>
+                You touch a weapon with faerie dust, giving it a burst of anima to carry it into the air. For the next
+                minute, the weapon's reach becomes 60 feet, but it remains a melee weapon. When a creature attacks with it,
+                the weapon flies towards the target to make the attack, then returns to its wielder.
+            </p>
+            <p>
+                <strong>At higher levels:</strong>When you cast this spell using a spell slot of 3rd level
+                or higher, you can target one additional weapon for each slot level above the 2nd.
+            </p>
+        </description>
+        <setters>
+        <set name="keywords">ranged attack</set>
+        <set name="level">2</set>
+        <set name="school">Enchantment</set>
+        <set name="time">1 bonus action</set>
+        <set name="duration">1 minute</set>
+        <set name="range">Touch</set>
+        <set name="hasVerbalComponent">false</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">true</set>
+        <set name="materialComponent">Any melee weapon, faerie dust worth 20 gold</set>
+        <set name="isConcentration">true</set>
+        <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Duelist's Blessing" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_DUELISTS_BLESSING">
+        <supports>Bard, Cleric, Paladin</supports>
+        <description>
+            <p>
+                You cover a weapon with golden flakes, emboldening its wielder to be on guard. 
+                For the next minute, when the weapon's wielder is targeted by a melee attack, they can use their reaction
+                to add +3 to their AC, potentially causing the triggering attack to miss.
+            </p>
+            <p>
+                <strong>At higher levels:</strong>When you cast this spell using a spell slot of 3rd level
+                or higher, you can target one additional weapon for each slot level above the 2nd.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">Any melee weapon, golden flakes worth 20 gold</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Fireflower Bloom" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_FIREFLOWER_BLOOM">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>
+                An incorporeal spectral fireflower appears hovering in a space of your choice within range and 
+                lasts for the duration. It sheds bright light in a 5-foot radius and dim light for an additional 
+                5 feet. As part of casting the spell and as a bonus action on each of your subsequent turns, you 
+                can unleash fiery pollen from the flower. When you do, you can choose up to one creature you can 
+                see to be healed by the fire, and up to one creature you can see to be harmed by it, both must be 
+                within 5 feet of the flower. The fireflower heals the for 1d4 hit points if its healing pool is not 
+                depleted, and harms for 1d4 fire damage. A harmed target makes a Dexterity saving throw, halving 
+                the damage on the success. A target sharing the flower's space has disadvantage on its saving throw. 
+                As part of the same bonus action, you may move the flower up to 10 feet in any direction. 
+                The fireflower can heal a number of times equal to 1 + your spellcasting ability modifier 
+                (minimum of twice) until its healing pool is depleted.
+            </p>
+            <p>
+                <strong>At higher levels:</strong>For each spell level above the 3rd, the healing and damage of the 
+                spell increases by 1d4. The amount of feet you can move the bloom also increases by 10 feet for 
+                every two spell levels above the 3rd.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A fireflower petal</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+</elements>

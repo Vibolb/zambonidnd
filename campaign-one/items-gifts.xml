@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+    <name>Supernatural Gifts</name>
+    <update version="1.0.0.1">
+    <file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-gifts.xml" name="items-gifts.xml"/>
+    </update>
+    </info>
+    <element name="Aratrh'Oa's Blessing" id="ID_DNDC1_MAGIC_ITEM_ARATHROAS_BLESSING" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+        <p>
+            <ul>
+                <li>
+                    Your influence on the fabric of reality deepens. Your maximum inspiration point is 
+                    now three. You can spend two inspiration points to generate the following effect:
+                    <ul>
+                        <li>
+                            <strong>“I know someone who…”.</strong> In any situation where it makes sense, you can 
+                            spend two inspiration points and declare “I know someone who…”, then quickly 
+                            sketch that NPC and your relationship with them (the fewer details the better, 
+                            as it leaves room for the DM and other PC to chime in). The DM as the final 
+                            say as to what is true or not from the sketched description. Upon declaration, 
+                            the NPC exists. Then, when you try to interact with them, you make an 
+                            appropriate Charisma check to determine how they react to you.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    You may now gain level in the Dragon Knight class and pick Aratrh'Oa the Sea Dragon as your Dragonlord.
+                </li>
+                <li>
+                    As long as your physical appearance does not significantly change, water elemental 
+                    brought into existence by Aratrh'Oa's dragon magic will recognize you. At your demand, 
+                    they may bring you to her if they don't have a reason not to.
+                </li>
+                <li> Over the next few days following drinking her artificial and chemically 
+                    enhanced blood, your body and mind underwent transformations to better 
+                    embody your essence. 
+                    <ul>
+                        <li>
+                            You may modify your starting ability scores following these rules:
+                            <ul>
+                                <li>
+                                    You still use the point buy method.
+                                </li>
+                                <li>
+                                    Your minimum and maximum ability score (before racial and other bonus) 
+                                    are still 8 and 15 respectively.
+                                </li>
+                                <li>
+                                    You can't lower an existing score by more than two.
+                                </li>
+                                <li>
+                                    You may now spend 28 points instead of 27 (which would generally total to -1/27 ability 
+                                    points in Aurora, for a level 5 character).
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            That transformation was initially too brutal for some of you, luckily the seizure was 
+                            stopped quickly to prevent death or worst. Consequences of this have yet to be discovered…
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
+        </description>
+        <setters>
+        <set name="category">Supernatural Gifts</set>
+        <set name="type">Boon</set>
+        <set name="slot">gift</set>
+        </setters>
+    </element>
+</elements>

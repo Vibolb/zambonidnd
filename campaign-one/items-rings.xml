@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Rings</name>
+        <update version="1.0.1">
+            <file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-rings.xml" name="items-rings.xml"/>
+        </update>
+    </info>
+    <element name="Grandstander" id="ID_DNDC1_RING_GRANDSTANDER" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+            <p>
+                <em>You can only do so much pretending before you become the thing you're pretending to be</em>
+            </p>
+            <p/>
+            <p>
+                This ring has 3 charges, and it fully recharges when the sun rises. 
+                While wearing the ring, you can expend one charge to cast 
+                <em>Cheerful Song,Friends, Glimmer, Prestidigitation</em> 
+                or
+                <em>Thaumaturgy</em>;
+                 or expend 3 charges to cast
+                <em>Loki's Gift, Unearthly Chorus </em>
+                or 
+                <em>Guest of Honor.</em> 
+                When applicable, spell cast through this ring have a spell save DC of 13.
+            </p>
+            <div class="reference">
+                <div element="ID_GFP_COFSA_SPELL_CHEERFUL_SONG" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FRIENDS" />
+            </div>
+            <div class="reference">
+                <div element="ID_GFP_COFSA_SPELL_GLIMMER" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_PRESTIDIGITATION" />
+            </div>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_THAUMATURGY" />
+            </div>
+            <div class="reference">
+                <div element="ID_KBP_DMRM_SPELL_LOKIS_GIFT" />
+            </div>
+            <div class="reference">
+                <div element="ID_WOTC_UA20170403_SPELL_UNEARTHLY_CHORUS" />
+            </div>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Uncommon</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+        </setters>
+        <rules>
+                <grant type="Spell" id="ID_GFP_COFSA_SPELL_CHEERFUL_SONG" />
+                <grant type="Spell" id="ID_PHB_SPELL_FRIENDS" />
+                <grant type="Spell" id="ID_GFP_COFSA_SPELL_GLIMMER" />
+                <grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+                <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+                <grant type="Spell" id="ID_KBP_DMRM_SPELL_LOKIS_GIFT" />
+                <grant type="Spell" id="ID_WOTC_UA20170403_SPELL_UNEARTHLY_CHORUS" />
+        </rules>
+    </element>
+</elements>

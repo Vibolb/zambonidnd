@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Supplements</name>
+		<description>Supplements from Wizards of the Coast to expand your core gaming elements.</description>
+		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
+		<update version="0.5.6">
+			<file name="supplements.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements.index" />
+		</update>
+	</info>
+	<files>
+		<file name="ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/ranger-favored-enemies.xml" />
+
+		<file name="lost-mines-phandelver.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/lost-mines-phandelver.index" />
+		<file name="hoard-of-the-dragon-queen.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/hoard-of-the-dragon-queen.index" />
+		<file name="rise-of-tiamat.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/rise-of-tiamat.index" />
+		<file name="princes-of-the-apocalypse.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/princes-of-the-apocalypse.index" />
+		<file name="out-of-the-abyss.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/out-of-the-abyss.index" />
+		<file name="sword-coast-adventurers-guide.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/sword-coast-adventurers-guide.index" />
+		<file name="curse-of-strahd.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/curse-of-strahd.index" />
+		<file name="storm-kings-thunder.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/storm-kings-thunder.index" />
+		<file name="volos-guide-to-monsters.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/volos-guide-to-monsters.index" />
+		<file name="tales-from-the-yawning-portal.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/tales-from-the-yawning-portal.index" />
+		<file name="tomb-of-annihilation.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/tomb-of-annihilation.index" />
+		<file name="xanathars-guide-to-everything.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/xanathars-guide-to-everything.index" />
+		<file name="mordenkainens-tome-of-foes.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/mordenkainens-tome-of-foes.index" />
+		<file name="waterdeep-dragon-heist.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/waterdeep-dragon-heist.index" />
+		<file name="waterdeep-dungeon-of-the-mad-mage.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/waterdeep-dungeon-of-the-mad-mage.index" />
+		<file name="guildmasters-guide-to-ravnica.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/guildmasters-guide-to-ravnica.index" />
+		<file name="ghosts-of-saltmarsh.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/ghosts-of-saltmarsh.index" />
+		<file name="acquisitions-incorporated.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/acquisitions-incorporated.index" />
+		<file name="descent-into-avernus.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/descent-into-avernus.index" />
+		<file name="eberron-rising-from-the-last-war.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/eberron-rising-from-the-last-war.index" />
+		<file name="explorers-guide-to-wildemount.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/explorers-guide-to-wildemount.index" />
+		<file name="mythic-odysseys-of-theros.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/mythic-odysseys-of-theros.index" />
+		<file name="rime-of-the-frostmaiden.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/rime-of-the-frostmaiden.index" />
+		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/tashas-cauldron-of-everything.index" />
+		<file name="candlekeep-mysteries.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/candlekeep-mysteries.index" />
+		<file name="van-richtens-guide-to-ravenloft.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/van-richtens-guide-to-ravenloft.index" />
+		<file name="wild-beyond-the-witchlight.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/wild-beyond-the-witchlight.index" />
+		<file name="fizbans-treasury-of-dragons.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/fizbans-treasury-of-dragons.index" />
+		<file name="strixhaven-a-curriculum-of-chaos.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/strixhaven-a-curriculum-of-chaos.index" />
+		<file name="critical-role-call-of-the-netherdeep.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/critical-role-call-of-the-netherdeep.index" />
+		<file name="monsters-of-the-multiverse.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/monsters-of-the-multiverse.index" />
+		<file name="journeys-through-the-radiant-citadel.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/journeys-through-the-radiant-citadel.index" />
+		<file name="astral-adventurers-guide.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/astral-adventurers-guide.index" />
+		<file name="boos-astral-menagerie.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/boos-astral-menagerie.index" />
+		<file name="light-of-xaryxis.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/light-of-xaryxis.index" />
+		<file name="dragonlance-shadow-of-the-dragon-queen.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/dragonlance-shadow-of-the-dragon-queen.index" />
+
+		<file name="adventurers-league.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/adventurers-league.index" />
+
+		<!-- events -->
+		<file name="extra-life.index" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/extra-life.index" />
+
+	</files>
+</index>

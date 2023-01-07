@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<update version="1.0.1">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-weapons.xml" />
+		</update>
+	</info>
+	
+	<!-- place your elements here -->
+	<element name="Lex Talionis" id="ID_DNDC1_MAGIC_ITEM_LEX_TALIONIS" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+            <p>While attuned to this item <em>and</em> wielding it, the bearer can cast <strong><em>An Eye for an Eye</em></strong> and <strong><em>A Tooth for a Tooth</em></strong> once per long rest.</p>
+            <div class="reference">
+                <div element="ID_DNDC1_SPELL_AN_EYE_FOR_AN_EYE" />
+            </div>
+            <div class="reference">
+                <div element="ID_DNDC1_SPELL_A_TOOTH_FOR_A_TOOTH" />
+            </div>
+        </description>
+        <setters>
+            <set name="keywords">dagger</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+            <set name="weapon">Dagger</set>
+        </setters>
+        <rules>
+            <grant type="Spell" id="ID_DNDC1_SPELL_AN_EYE_FOR_AN_EYE" />
+            <grant type="Spell" id="ID_DNDC1_SPELL_A_TOOTH_FOR_A_TOOTH" />
+        </rules>
+    </element>
+    <element name="Merciful Macuahuitl" id="ID_DNDC1_MAGIC_ITEM_MERCIFUL_MACUAHUITL" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+        <p>
+            <em>
+                War leaves its marks on everyone who sees it. Some take scars that never heal. So did the leves that had to kill their companions 
+                that turned against them during the Titan's war. Their sorrow and their friends' blood drenched these weapons, granting them innate necrotic powers.
+            </em>
+        </p>
+        <p>
+            This tribal sword's sturdy wooden frame is lined with obsidian shards, allowing attacks made with it to deal either bludgeoning 
+            or slashing damage (your choice). 
+        </p>
+        <p>
+            The sword has been enchanted through the heartbreaking slaughter of friends turned foes. When you roll a 20 on your
+            attack roll with this magic weapon against a creature, that creature becomes marked for death until the start of your
+            next turn. A marked creature can't regain hit points, does not feel pain, and when the mark ends, takes 1d8 necrotic damage.
+        </p>
+        </description>
+        <setters>
+            <set name="keywords">longsword</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+            <set name="type" addition="longsword">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">false</set>
+            <set name="weapon">Longsword</set>
+        </setters>
+    </element>
+    <element name="Vial Dagger" id="ID_DNDC1_MAGIC_ITEM_VIAL_DAGGER" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+            <p>
+                <em>
+                    Shattered jaws may heal in time, but some betrayals fester and poison the soul. 
+                </em>
+            </p>
+            <p>
+                This translucent dagger is made of magically reinforced glass. A hidden intricate 
+                contraption in its handle makes it usable as a syringe. It takes a minute to carefully 
+                fill the syringe with a liquid. Poison inside the vial maintains its potency for 24 
+                hours. As part of an attack with the dagger, after you hit, as a free action, you may
+                activate the hidden contraption to release all its content in the target. All saving 
+                throws against poisons delivered this way have their DC increased by 1. Additionally,
+                if the vial is empty, this dagger may be used to harvest venom or blood from a creature
+                providing advantage on the check when used in conjunction with a poisoner's kit. 
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">dagger</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">false</set>
+            <set name="weapon">Dagger</set>
+        </setters>
+    </element>
+    <element name="Harvest" id="ID_DNDC1_MAGIC_ITEM_HARVEST" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+            <p>
+                <em>
+                    Every life, whether human, beast, or plant, must come to an end. 
+                    It's all temporary. Everything has its own grim reaper, and 
+                    today, I'm ready to reap what's been sown. 
+                </em>
+            </p>
+            <p>
+                This wildlands explorer's heirloom depicts wheat and field 
+                designs and is so well crafted is has the finesse property. 
+                When you hit a plant creature with an attack using this magic 
+                weapon, the target takes an extra 1d6 slashing damage. In 
+                addition, any nonmagical plant harvested with this sickle 
+                magically remains fresh for an extra 7 days.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">sickle</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+            <set name="type" addition="sickle">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">false</set>
+            <set name="weapon">Sickle</set>
+        </setters>
+    </element>
+    <element name="Tribute to Phoenixes" id="ID_DNDC1_MAGIC_ITEM_TRIBUTE_TO_PHOENIXES" source="DnDCustomContent - Campaign One" type="Magic Item">
+        <description>
+            <p>
+                <em>
+                    Gnomes pride themselves for works of art and craftmanship that
+                     are ingenuously useful during their lifetime. Dwarves strive 
+                     to build eternally magnificent figurative masterpieces. This 
+                     creation is a tribute to both their traditions, emulating the 
+                     phoenix the repeatedly burns gloriously during his never-ending 
+                     cycles of life and death. What a poetic heirloom to pass from 
+                     generation to generation. 
+                </em>
+            </p>
+            <p>
+                This magic sword is made of emberwood, a dark tree that grows only in
+                 volcanic regions where the lava veins flow like water beneath the ground. 
+                 It looks like a regular wood but is as hard as steel and requires years 
+                 of training to smith, let alone craft intricate details and imbue it with 
+                 magic. You have a +1 bonus to attack and damage rolls made with this magic 
+                 weapon.
+            </p>
+            <p>
+                <strong>Phoenix Dance.</strong> As a bonus action, you can speak this sword 
+                command word to make the magic sap within the wood ignite the blade for 
+                1 minute or until you dismiss it (no action required). Once you activate 
+                the flames within the sword, you can't do it again until the next dawn. 
+                When you hit a creature with this magic sword while it is lit, the creature 
+                takes an extra 1d4 fire damage. In addition, the magic flames surrounding 
+                the sword turn even defensive movements, a threat to the enemies around you. 
+                Whenever a creature that is 5ft from you misses you with an attack roll, it 
+                takes 1d4 fire damage.
+            </p>
+            <p>
+                <strong>Phoenix Might.</strong> While holding this sword, you can use it as a spellcasting focus.
+                 Spells that deal fire damage cast through this focus have a +1 bonus to spell attack rolls 
+                 and to their saving throw DCs. Casting a spell that deals fire damage through this sword cause
+                 it to inflame at the end of the next X rounds or until it hits a target, dealing an additional
+                 Xd4 fire damage on hit, whichever comes first. X equals the level of the spell cast.
+            </p>
+            <p>
+                While the sword is ablaze by any effect, it shines bright light it a 20-foot radius and 
+                dim light in an additional 20 feet.
+            </p>
+        </description>
+        <setters>
+            <set name="keywords">sword, short, fire, phoenix</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+            <set name="type" addition="shortsword">Weapon</set>
+            <set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+            <set name="weapon">Shortsword</set>
+        </setters>
+    </element>
+</elements>

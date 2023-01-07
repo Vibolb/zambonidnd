@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous items</name>
+		<update version="1.0.3">
+			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-wondrous.xml" />
+		</update>
+	</info>
+	
+	<!-- place your elements here -->
+	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_BAND_OF_EQUANIMITY" name="Band of Equanimity">
+		<description>
+			<p> While attuned to this item: </p>
+			<p>
+				<list type="bullet">
+					<p>
+						<item>
+							<strong><em>Once per long rest</em></strong>, you may use your reaction, which you take when you are hit by a weapon or spell attack, to add your spellcasting modifier, to your AC. 
+						</item>
+					</p>
+					<p>
+						<item>
+							<strong><em>Once per short rest</em></strong>, you can broadcast a telepathic message of no more than 30 words and no longer than 30 seconds to up to 6 willing creates that you can see within 30 feet of you. 
+						</item>
+					</p>
+				</list>
+			</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.25">0.25 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_AGONIZING_DRYADS_HEART" name="Agonizing Dryad's Heart">
+		<description>
+			<p>Attuning to this item causes the heart to merge with your body, effectively replacing your own and granting you the following:</p>
+			<p>
+				<p>
+					You can speak, read and write Sylvan. 
+				</p>
+				<p>
+					You gain the ability to innately cast the <em>Druidcraft</em> cantrip at will. You also gain the ability to innately cast <em>Speak with Animals</em> once per long rest. 
+				</p>
+				<p>
+					<strong><em>Otherwordly Charm: </em></strong> if you spend one minute interacting with a target within 30 feet of you that can see you, you can force it to make a Wisdom saving throw against your spell save DC. On a failure, the target becomes charmed by you for 1 hour or until someone in your party harms it. The creature has no indication that you tried to charm it. Creatures that are immune to being charmed automatically succeed on the saving throw. Once you use this feature, you cannot use it again until you finish a long rest.
+				</p>
+				<p>
+					<strong><em>At 4th level: </em></strong> you can innately cast <em>Lesser Restoration</em> on yourself once per long rest. 
+				</p>
+				<p>
+					<p><strong><em>At 6th level: </em></strong> you gain the following benefits:</p>
+					<p>
+						<ul>
+							<li>You can innately cast <em>Plant Growth</em> once per long rest.</li>
+							<li>While your current hit points are below your maximum hit points and you are not incapacitated, you recover 3 hit points at the start of your turn. You must be in direct sunlight to to receive this benefit. You recover 4 hit points at 14th level and 5 hit points at 18th level.</li>
+						</ul>
+					</p>
+				</p>
+				<p>
+					<strong><em>At 14th level</em></strong> you have advantage on saving throws against being charmed, and you can now use your <em>Otherworldly Charm</em> feature <em>twice per long rest</em>. Additionally, you gain resistance to poison.
+				</p>
+				<p>
+					<p><strong><em>Nature's Shroud: </em></strong> At 18th level, once per long rest, as a bonus action and on your turn, you may gain the following benefits for 1 minute:</p>
+					<p>
+						<ul>
+							<li>You are invisible until you attack or cast a spell. You have advantage on saving throws against spells and other magical effects.</li>
+							<li>You have resistance to damage caused by spells and other magical effects. </li>
+							<li>Creatures that target you directly with an attack or a harmful, targeted spell - excluding area-of-effect spells - must make a Wisdom saving throw against your spell save DC. On a failed save, the creature must choose a new target or forfeit targeting someone, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. Creatures that are immune to being charmed automatically succeed on the saving throw.</li>
+						</ul>
+					</p>
+				</p>
+				<p>
+					<p><strong><em>Curse.</em></strong> This item is cursed and afflicts you with the dying dryad's fears and despair:</p>
+					<p>
+						<ul>
+							<li>You cannot voluntarily end attunement to this item.</li>
+							<li>Forcibly removing the heart removes your heart in the process.</li>
+							<li>Thorns dig into your inner organs, reducing your hit point maximum by 1/player level.</li>
+							<li>You are vulnerable to fire. Additionally, after taking fire damage, you must succeed a Wisdom saving throw with a DC equal to 10 or half the received damage, whichever is higher. On a failed save, you are Frightened by the damage’s source for 1 minute. You can repeat the save at the end of your turn, ending the effect on a success.</li>
+							<li>The heart’s despair flows through your veins, you have Disadvantage on saving throws against being Frightened.</li>
+							<li>Voluntarily harming plants or beasts or letting it happen unless for self-defense, survival or nature’s greater good - at your DM's discretion - requires you to make a DC 14 Charisma saving throw. On a failed save, you take 1d6 psychic damage. Failing this save frequently can lead to short- and long-term madness.</li>
+						</ul>
+					</p>
+				</p>
+			</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot" />
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_CELESTIAL_GUARDIANS_STARLIGHT_CLOAK" name="Celestial Guardian`s Starlight Cloak">
+		<description>
+			<p><em>Seek wisdom from heavenly bodies as our forefathers did. Listen to their song, and dance with them as they fall.</em></p>
+			<p>
+				<p>
+					This deep purple cloak is hemmed with a silver lining that radiates into starburst patterns around the head and arms. 
+					When in darkness, tiny stars can be seen from within the cloak's fabric. A constellation of stars in the shape of an 
+					eye can always be seen on the front of the cloak's dramatic hood. While wearing the cloak, you can embody a <em><strong>Starry Form </strong></em>
+					and <em><strong>Commune with the Stars</strong></em>.
+				</p>
+				<p>
+					<em><strong>Commune with the Stars</strong></em>
+				</p>
+				<p>
+					While you can see the night sky and are wearing the cloak, you can use an action to cast the <italic>Augury</italic> spell. When you do,
+					the omens are represented by the number of shooting stars that appear in the sky:
+					<list type="bullet">
+						<p>
+							<item>
+								<strong><em>Three or more shooting stars</em></strong>, for good results 
+							</item>
+						</p>
+						<p>
+							<item>
+								<strong><em>One shooting star</em></strong>, for bad results 
+							</item>
+						</p>
+						<p>
+							<item>
+								<strong><em>Two shooting stars</em></strong>, for good and bad results 
+							</item>
+						</p>
+						<p>
+							<item>
+								<strong><em>Nothing</em></strong>, for results that are not especially good or bad
+							</item>
+						</p>
+					</list>
+					<p>
+						Once this property of the cloak has been used, it cannot be used again until the next dusk.
+					</p>
+				</p>
+			</p>
+		</description>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_STARS_STARRY_FORM" />
+		</rules>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">1 lb.</set>
+			<set name="slot" />
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element  type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_LINGERING_CANDLE_HOLDER" name="Lingering Candle Holder">
+		<description>
+			<p><em>
+				Legend has it that Adeila could not bear the loss of her lover, Angmar, and became hateful toward the concept of transience itself.
+				She created ever-enduring objects that eventually outlasted her and her grief. But nothing is ever forever. The smoke hangs still.
+				Lifeless. Its time as a flame has come and go, and now it can finally rest, much like Adeila.
+			</em></p>
+			<p>
+				This pewter candle holder makes your hand feel slightly numb while holding it.
+				While holding it, you can use a bonus action to speak its command word, Mavli,
+				to cause the candle holder to magically hover just above your shoulder. The holder
+				floats back to the ground if anything other than a candle is placed on it. In addition,
+				any candle in the holder releases a thin wisp of smoke while lit and its flame is static,
+				it never flickers. The smoke hangs motionless in the air, regardless of wind, and dissipates after 6 seconds.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot" />
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_BLOODHUNT_AMULET" name="Bloodhunt Amulet">
+		<supports>Ranger</supports>
+		<description>
+			<p>
+				<em>
+					This amulet is imbued with the everlasting sadistic lust of Feras, 
+					a legendary lycanthropic Shadar-Kai assassin rumored to be one of Brayzer's 
+					founders who preferred to toy with its prey rather than kill them.
+				</em>
+			</p>
+			<p>
+				While wearing this pendant, you gain the following:
+				<ul>
+					<li>
+						<strong><em>Fear Smells</em></strong>. You have advantage on any ability check that relies on smell. 
+						In addition, you can use an action to focus on a particular scent. When you do, you perceive that smell 
+						visually as a cloud of red vapor for up to 1 hour. Once this property of the amulet has been used, it 
+						can't be used again until the next dawn.
+					</li>
+					<li><strong><em>It's not the thrill of the kill, it's the thrill of the hunt</em></strong>
+						When you cast Hunter's Mark, you no longer need to concentrate on the spell, its duration is doubled,
+						 you gain a +1 attack bonus to hit your quarry and the extra damage is reduced to 1d4. You can only 
+						 have one mark active at a time. If you cast this spell a second time while a mark is active, the first
+						  one ends. While the mark is active, your eyes have a faint red glow, and you can't remove the sadistic 
+						  smirk from your face. Once per long rest, you can eat a full meal's worth of humanoid flesh or insects 
+						  to gain a free cast of Hunter's Mark at 1st level. You can't gain a free cast this way if you already 
+						  have one.
+					</li>
+				</ul>
+			</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot" />
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">very rare</set>
+		</setters>
+	</element>
+	<element name="Fists of the Guiding Star" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_FISTS_OF_THE_GUIDING_STAR">
+		<supports>Monk</supports>
+		<description>
+			<p>
+				<em>
+					“When the stars align, we all prevail” - A rallying call heard
+					 countless times from Celestial Guardians as they rush into battle 
+					 to preserve the natural order of all. 
+				</em>
+			</p>
+			<p>
+				Stars and celestial bodies glimmer through these hand wrappings. 
+				While wearing these wraps over your hands, you can use a <em>bonus action</em> 
+				to spend <strong>1 ki point</strong> to cause small motes of starlight to guide a creature 
+				you can see within 30 feet of you, giving it <em>Advantage</em> on the next attack
+				roll it makes before the end of your next turn. If that creature's next 
+				attack hits, the attack deals extra radiant damage equal to your <em>Martial Arts</em> 
+				die + your Wisdom modifier (minimum of 1).
+			</p>
+			<p>In addition, you can use an action to cast the <em>Light</em> cantrip while wearing these wraps.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_LIGHT" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot" />
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<!-- LIGHT spell -->
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
+		</rules>
+	</element>
+	<element name="Sandskin Mantle" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_SANDSKIN_MANTLE">
+		<description>
+			<p>
+				<em>
+					A garment worn by the desert raiders of Tamira, the City of Bones. Woven through 
+					an expert act of biomancy from skin and sand, it was designed to protect its wearer's 
+					vision during harsh sandstorms and allow them to disappear into the sand-strewn winds 
+					of the Sand Ocean. 
+				</em>
+			</p>
+			<p>
+				While wearing this garment, are immune to blindness and obscuration when its source is dust, 
+				debris, sand, snow, or other particulate matter, <em>but not gases</em>. 
+			</p>
+			<p>
+				Once per long rest, as an action, you can activate the power of the mantle and dissolve into 
+				visible particulate matter if you are standing in a cloud of it that is at least your size. 
+				When you take this form, you can fly up to a range of 20 feet and are immune to damage except 
+				psychic damage and effects that destroy matter like the disintegrate spell. You retain a somewhat 
+				humanoid form, allowing you to hide in particles but making it obvious that you are not a natural
+				occurrence otherwise. You cannot take actions other than the use of a bonus action to return to 
+				your normal state. This effect ends on its own after a number of turns equal to your constitution 
+				score.
+			</p>
+			<p>
+				<strong>
+					Blinding Cloud
+				</strong>
+				While in cloud form, you may occupy the same space as another creature. A creature that starts 
+				its turn in the same space as you must pass a DC 13 Wisdom saving throw, becoming blinded until
+				the start of its next turn on failure. If the creature has no eyes or is protected from particles
+				and debris, this has no effect on them.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">cloak, armor, blinding, cloud</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Captioning Cuff of Reading" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_CAPTIONING_CUFF_OF_READING">
+		<description>
+			<p>
+				While wearing this platinum ear cuff, you gain the following:
+				<p>
+					<ul>
+						<li>
+							Any audible sound or spoken language that you are within earshot of is magically transcribed,
+							appearing as unobtrusive, illusory text that only you can see in the corner of your vision. While 
+							wearing the cuff, you gain a +2 bonus to Wisdom (Perception) checks that rely on hearing, even if 
+							you are deafened, as you can sometimes read the transcriptions of sounds that are otherwise inaudible. 
+							The transcriptions are written in Common, and vary in size and form depending on the nature of the sound. 
+							The text conveys the literal meaning of any spoken language that it transcribes. You can choose to ignore 
+							certain sounds and transcriptions, causing the text to vanish, in order to better focus on the ones, you're 
+							interested in.	
+						</li>
+						<li>
+							<em>Scribesight</em>: As an action you can channel the knowledge of ancient scribes. 
+							For a number of minutes equal to your intelligence modifier (minimum of 1), you
+							understand any written language that you see, but you must be touching the 
+							surface on which the words are written. It takes about 1 minute to read one page
+							of text. This doesn't decode secret messages in a text or a glyph, such as an
+							arcane sigil, that isn't part of a written language. You can use this ability
+							a number of times per long rest equal to your intelligence modifier (minimum 
+							of 1).
+						</li>
+					</ul>
+				</p>
+			</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot" />
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Shadow-touched Boots" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_SHADOW_TOUCHED_BOOTS">
+		<description>
+			<p>
+				<em>
+					Spending too much time in the Shadowfell corrupts even the bravest souls.
+					The only way to resist its taint is to embrace it. Infamous illusion 
+					mages, thieves, assassins, shamans, and other shadowy people have spent 
+					countless years studying and welcoming the Shadow’s touch to gain its 
+					power. Shadow-touched people and objects use darkness as a conduit for 
+					power and elusiveness.
+				</em>
+			</p>
+			
+			<p>
+				These pitch-black leather boots adjust automatically to your feet, 
+				ensuring a skin-tight fit that enhance your perception of the ground 
+				you walk on and reducing noises. While attuned to this item and wearing 
+				it, you have three shadow charges which you can spend to do the following:
+				<p>
+					<ul>
+						<li>
+							<strong>One with Darkness (1 charge).</strong> You have <em>advantage</em> on stealth 
+							checks for 10 minutes.
+						</li>
+						<li>
+							<strong>Shadow Step (1 charge).</strong> When you roll initiative, you can 
+							teleport up to 30 feet to a location within 10 feet of a 
+							creature you can see, provided both of you are not in bright 
+							light. 
+						</li>
+						<li>
+							<strong>Dead Men Tell no Tales (1 charge).</strong> If you deal damage to a 
+							creature targeted by Shadow Step on your first turn or that
+							is surprised, you can use your bonus action to steal their 
+							breath and spirit. The target takes psychic damage equal to 
+							your level and cannot speak or make sound until the start of 
+							your next turn.
+						</li>
+					</ul>
+				</p>
+				You regain one shadow charge when an attacker with advantage misses you, when you 
+				critically hit a creature that is not in bright light, and you regain all charges 
+				at midnight.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">stealth, boots, shadow</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">feet</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Fireweaver Gloves" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_FIREWEAVER_GLOVES">
+		<description>
+			<p>
+				<em>
+					"My light is that of an endless furnace. I will cast out your 
+					darkness and set you and your followers alight!"
+				</em>
+			</p>
+			<p>
+				While wearing these fine golden gloves, you can use an action 
+				to cast the <em>Produce Flame</em> cantrip from it. You can hold this 
+				and other small non-magical flames (such as a torch or candle) as 
+				if they were tangible objects, and can sculpt them like clay. Once 
+				sculpted, a flame retains its form for 1 minute before returning 
+				to normal. A non-magical flame carried in this way burns for 1 hour 
+				before dying. If you drop or throw a nonmagical flame, it immediately 
+				burns out.
+			</p>
+			<p>
+				When you cast <em>Produce Flame</em> using the gloves, the spell's duration 
+				is 1 hour, instead of 10 minutes, and it casts bright light in a 
+				20-foot radius and dim light for an additional 20 feet. In addition, 
+				you can place the spell's conjured flame on the ground at your feet 
+				(no action required). When you do, the flame continues to burn harmlessly 
+				for up to 1 minute before going out. While you're within 5 feet of the 
+				placed flame, you can use an action to pick it back up. When you attack 
+				with the flame, you can target objects, and it ignites flammable objects 
+				in the area that aren't being worn or carried.
+			</p>
+			<p>
+				In addition, when you take fire damage while wearing these gloves, 
+				you can use your reaction to reduce the damage by <em>1d8 + 2</em>.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">fire, gloves</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="All-purpose Tool, +1" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+1">
+		<description>
+			<p>
+				This simple screwdriver can transform into a variety of tools; 
+				as an action, you can touch the item and transform it into any 
+				type of artisan's tool of your choice (see the "Equipment" chapter 
+				in the <em>Player's Handbook</em> for a list of artisan's tools). Whatever 
+				form the tool takes, you are proficient with it. While holding this 
+				tool, you gain a bonus to the spell attack rolls and the saving throw 
+				DCs of your artificer spells. The bonus is determined by the tool's rarity.
+			</p>
+			<p>
+				As an action, you can focus on the tool to channel your creative forces. 
+				Choose a cantrip that you don't know from any class list. For 8 hours, you 
+				can cast that cantrip, and it counts as an artificer cantrip for you. Once 
+				this property is used, it can't be used again until the next dawn.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">wondrous, tool, all-purpose, artificer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">feet</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by an artificer">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="All-purpose Tool, +2" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+2">
+		<description>
+			<p>
+				This simple screwdriver can transform into a variety of tools; 
+				as an action, you can touch the item and transform it into any 
+				type of artisan's tool of your choice (see the "Equipment" chapter 
+				in the <em>Player's Handbook</em> for a list of artisan's tools). Whatever 
+				form the tool takes, you are proficient with it. While holding this 
+				tool, you gain a bonus to the spell attack rolls and the saving throw 
+				DCs of your artificer spells. The bonus is determined by the tool's rarity.
+			</p>
+			<p>
+				As an action, you can focus on the tool to channel your creative forces. 
+				Choose a cantrip that you don't know from any class list. For 8 hours, you 
+				can cast that cantrip, and it counts as an artificer cantrip for you. Once 
+				this property is used, it can't be used again until the next dawn.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">wondrous, tool, all-purpose, artificer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">5000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">feet</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by an artificer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="All-purpose Tool, +3" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+3">
+		<description>
+			<p>
+				This simple screwdriver can transform into a variety of tools; 
+				as an action, you can touch the item and transform it into any 
+				type of artisan's tool of your choice (see the "Equipment" chapter 
+				in the <em>Player's Handbook</em> for a list of artisan's tools). Whatever 
+				form the tool takes, you are proficient with it. While holding this 
+				tool, you gain a bonus to the spell attack rolls and the saving throw 
+				DCs of your artificer spells. The bonus is determined by the tool's rarity.
+			</p>
+			<p>
+				As an action, you can focus on the tool to channel your creative forces. 
+				Choose a cantrip that you don't know from any class list. For 8 hours, you 
+				can cast that cantrip, and it counts as an artificer cantrip for you. Once 
+				this property is used, it can't be used again until the next dawn.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">wondrous, tool, all-purpose, artificer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">20000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">feet</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by an artificer">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Gaas' Unworldly Coat" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_GAAS_UNWORLDLY_COAT" source="DnDCustomContent - Campaign One">
+		<description>
+			<p>
+				<em>
+					If you gaze long enough into other worlds, the other worlds also gaze into you.
+				</em>
+			</p>
+			<p>
+				A jet-black coat that glimmers of green and blue
+				hues under sunlight and moonlight, seemingly absorbing 
+				and emanating colors at the same time. This unnatural 
+				phenomenon is captivating and sparks curiosity at first 
+				sight. After looking at it for more than a few seconds 
+				straight, people start hearing soft undecipherable 
+				screech and feeling observed by semblance of inhuman 
+				eyes shimmering on it, most of them look away, troubled,
+				at that point.
+			</p>
+			<p>
+				While wearing this coat, Gaas:
+			</p>
+			<p>
+				<ul>
+					<li>
+						Can mentally send messages to 
+						willing creatures within 30 feet,  
+						up to X creatures and 10 times X 
+						words at a time, where X is its 
+						intelligence modifier. This communication 
+						is one-way only. The use of this feature 
+						may attract the unwanted attention of 
+						otherworldly beings.
+					</li>
+					<li>
+						May spend 1 hour concentrating during 
+						a short rest to know the general direction 
+						to the closest Fey Crossing and Shadow Crossing
+						within a 60-mile radius. This does not 
+						prevent him for regaining hit points with 
+						hit dice as it is a light activity. The use 
+						of this feature may attract the unwanted 
+						attention of otherworldly beings.
+					</li>
+					<li>
+						Has advantage on saving throws against Shadowfell Despair.
+					</li>
+				</ul>
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">gaas, coat, cloak, fey, wild</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type" addition="combat coat">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Vestment of the Breathless" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_VESTMENT_OF_THE_BREATHLESS" source="DnDCustomContent - Campaign One">
+		<description>
+			<p><em>
+				Breathing techniques were invented by the last 
+				few martial arts masters standing before the 
+				world had to be submerged to vanquish the abyssal 
+				invasion that brought it to its knees centuries ago. 
+				Breath flows like Ki and allows the body, the mind, 
+				and the soul to connect and synchronise to unlock 
+				their hidden capabilities.
+			</em></p>
+			<p>
+				This vestment made of intricate leather straps 
+				contracts your body in a way that forces you to 
+				constantly practice breathing exercises, allowing 
+				your body to accomplish much more than the average 
+				person would with the same amount of oxygen. 
+				While wearing this vestment, you are under the 
+				effect of the Breathless Renewal breathing technique 
+				at all times. You can only practice one breathing 
+				technique at once.
+			</p>
+			<p>
+				<strong>
+					Breathless Renewal
+				</strong>
+				<ul>
+					<li>
+						<strong>Flowing Ki</strong>. Using Patient 
+						Defense and Step of the Wind increases 
+						your movement speed by 5 feet until the 
+						beginning of your next turn. When using 
+						either of these techniques, you may roll 
+						your martial art dice. If the result is 
+						higher than the number of Ki point you 
+						have left and different from 1, you 
+						regain the spent Ki point. 
+					</li>
+					<li>
+						<strong>Perfect Movements</strong>. Being able  
+						to move at inhumane speed and precision allow 
+						you to use your agility and speed to overcome 
+						obstacles usually dealt with brute force. Once 
+						per short rest, when prompted to roll for an 
+						Athletics check, you can roll for Acrobatics 
+						instead. When this feature has been used, you 
+						can spend a Ki point to use it again.
+					</li>
+					<li>
+						<strong>Less is More</strong>. Double the amount 
+						of time for which you can hold your breath.
+					</li>
+				</ul>
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">breath, vestment</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Ean'el's Undying Tunic" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_EANEL_UNDYING_TUNIC" source="DnDCustomContent - Campaign One">
+		<description>
+			<p><em>
+				The important thing is this: to be able, 
+				at any moment, to sacrifice what we are for 
+				what we could become.
+			</em></p>
+			<p>
+				The pale beige of this tunic and the bright bleu 
+				of its intricate 4-petaled tulip symbol never tarnish, 
+				and always smells like fresh flowery spring breeze. 
+				It brings you closer to the dead yet protects you 
+				from death, while championing selflessness. 
+			</p>
+			<p>
+				While wearing it, Ean'el:
+				<ul>
+					<li>
+						Rarely feels hungry or thirsty 
+						and only needs to consume one-fifth the 
+						usual amount of food and water required 
+						to thrive.
+					</li>
+					<li>
+						May, once per day, use an action to meditate 
+						and detect the presence of the dead. For 1 
+						minute or until your concentration ends,
+						- as if you were concentrating on a spell - 
+						you know the direction of any undead creature 
+						and corpse within 30 feet of you. You also know 
+						if there is a place or object within that range 
+						that has been magically desecrated. This effect 
+						can penetrate most barriers, but it is blocked 
+						by 1 foot of stone, 1 inch of common metal, a 
+						thin sheet of lead, or 3 feet of wood or dirt.
+					</li>
+					<li>
+						May, as an action, pluck one of the 4 tulip's 
+						petal and use it to heal a target for 1d4 hit points 
+						at touch range. The petal withers if it is not used 
+						during Ean'e's turn. The item regains 1d4 charges at 
+						sunrise. Ean'el may also, as a bonus action, replenish 
+						1d4+1 charges and gain a level of <em>exhaustion</em> at the 
+						end of its turn. The tulip's petal can't be used on 
+						himself.
+					</li>
+					<li>
+						Gains a +1 bonus to armor class if he has any levels 
+						of <em>exhaustion</em> - the bonus does not increase with exhaustion level.
+					</li>
+				</ul>
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">undying, Ean'el, tunic, monk</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type" addition="monk tunic">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Lilypad Token" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_LILYPAD_TOKEN" source="DnDCustomContent - Campaign One">
+		<description>
+			<p><em>
+				A token of remembrance of a peaceful time. Before war, when 
+				halflings lived in harmony with giants in their recluse land 
+				covered in overgrown trees and immense waterfalls, you could 
+				see them drinking the afternoon tea in lilypad boats floating 
+				in ponds made by giant's footprints.
+			</em></p>
+			<p>
+				This token made from emerald gemstone floats on water. 
+				When you throw it into water and speak its command word 
+				while it is floating, it turns into a giant lilypad raft. 
+				The lilypad is 10ft. in diameter and can hold up to five 
+				creatures or 750 lb., whichever is met first. The creature 
+				who spoke the command word can use a bonus action to command 
+				it to float towards a direction. The raft does so at a speed 
+				of 30ft. per round until it reaches its destination or is 
+				commanded to stop. Repeating the command word turns the raft 
+				back into a token provided that no creatures are aboard.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">lilypad, token, float, boat</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Bag of Spellybeans" id="ID_DNDC1_WONDROUS_ITEM_BAG_OF_SPELLYBEANS" type="Magic Item" source="DnDCustomContent - Campaign One">
+		<description>
+			<p>
+				<em>
+					“You'd think the green one is mint and the red one strawberry, 
+					but honestly I swear these beans seem to be changing colors when 
+					you're not looking at them. Watchout for the spicy ones.”
+				</em>
+			</p>
+			<p>
+				This bag contains 5d4 beans. The flavor of a bean cannot be identified 
+				by its color. Consuming a bean allows you to cast a specific spell at 
+				its lowest level once within the next minute. You can take a bean from 
+				the bag and consume it as an action. Roll on the table to determine which 
+				flavor is has. The spell uses an ability modifier of +2 and a spell attack 
+				bonus of +4. If you have a spell slot of the appropriate level or higher, 
+				you may expend it when you cast the spell. If you do, you can use your own 
+				spellcasting ability modifier and spell attack bonus instead.
+			</p>
+			<table style="text-align:center">
+				<thead>
+					<tr><td>Roll</td><td>Flavor</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1</td><td>Licorice</td><td>Goodberry</td></tr>
+				<tr><td>2</td><td>Strawberry</td><td>Command</td></tr>
+				<tr><td>3</td><td>Mint</td><td>Guiding Bolt</td></tr>
+				<tr><td>4</td><td>Lemon</td><td>Counterspell</td></tr>
+				<tr><td>5</td><td>Cayenne Pepper</td><td>Burning Hands</td></tr>
+				<tr><td>6</td><td>Pinepapple</td><td>Acid Arrow</td></tr>
+				<tr><td>7</td><td>Cinnamon</td><td>Shield</td></tr>
+				<tr><td>8</td><td>Reaper Pepper</td><td>Scorching Ray</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">beans, spells</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Lysander's Everlasting Spark" id="ID_DNDC1_WONDROUS_ITEM_LYSANDERS_EVERLASTING_SPARK" type="Magic Item" source="DnDCustomContent - Campaign One">
+		<description>
+			<p>
+				<em>
+					“The very life of any creature is a quick-fading spark in fathomless darkness.”
+				</em>
+			</p>
+			<p>
+				A dark vest that generates its own fiery red reflections, it shines brighter as its wearer get closer to death. It cannot be worn over an armor. While wearing it, Lysander:
+				<ul>
+					<li>
+						Can still move, but neither take actions, reactions, or bonus actions, nor talk or make articulated gestures while at 0 hit point. In that state, the tuxedo's fabric displays bright reddish flames en produces volatile firebrands. When he is brought to 0 hit points, he may make a Strength saving throw to stay standing, falling prone on a failure. The DC equals 10 or half the damage taken, whichever is higher. 
+					</li>
+				</ul>
+			</p>
+			<p>
+				Additionally, when the tuxedo is visible (i.e., not under an armor of other clothes):
+				<ul>
+					<li>
+						He has advantage on charisma checks against undead.
+					</li>
+					<li>
+						Undead are reluctant to approach and target the spark. If an undead targets him directly with an attack or 
+						a harmful spell, that creature must make a DC 12 Wisdom saving throw (an undead needn't make the save when 
+						it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must 
+						choose a new target or forfeit targeting someone instead of him, potentially wasting the attack or spell. On 
+						a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect 
+						for 24 hours if he targets or affects it with an attack or a harmful spell.
+					</li>
+				</ul>
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">spark, lysander, everlasting</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="1">5 lb.</set>
+			<set name="type" addition="tuxedo">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Forgekeeper's Spark" id="ID_DNDC1_WONDROUS_ITEM_FORGEKEEPERS_SPARK" type="Magic Item" source="DnDCustomContent - Campaign One">
+		<description>
+			<p>
+				<em>
+					The sound of song clattered through the smithy, its tempo and percussion kept by 
+					the beating of a hammer against anvil. Most visitors would come and go, thinking 
+					the behavior simply charming and good-natured, but the clever ones who looked closely 
+					would notice, after a time, that the smith was singing to the fire. His wobbling notes 
+					and timed beats created a chorus for he and the spirit within the flames to work and dance 
+					to. The smith wasn't singing idly, no: he was serenading his coworker, friend, and muse.
+				</em>
+			</p>
+			<p>
+				A lingering fragment of a fire spirit remains attached to this piece of coal, keeping it 
+				covered in harmless blue embers that are pleasantly warm to the touch. When surrounded 
+				by fire, the coal burns with a magical blue flame and the spirit within it emerges. 
+				The spirit remains until the fire goes out or is doused, at which point the spirit hides 
+				within its coal until immersed in flames once more. If removed from the fire, the spirit 
+				moves with the burning coal and remains for up to 1 minute.
+			</p>
+			<p>
+				While the spirit is present, it helps tend to the fire it's placed in. The spirit can maintain 
+				a fire that fills up to a 5-foot cube. A fire tended to by the spirit gains the following benefits:
+				<ul>
+					<li>
+						It can't be extinguished by strong winds.
+					</li>
+					<li>
+						It produces no smoke, unless you want it to.
+					</li>
+					<li>
+						It burns for twice the normal duration with the same amount of fuel.
+					</li>
+					<li>
+						Any food being cooked in the fire is kept at an ideal temperature.
+					</li>
+				</ul>
+			</p>
+			<p>
+				In addition, you have advantage on any ability check you make that uses either 
+				cook's utensils or glassblower's, smith's, or tinker's tools to heat and craft 
+				items in the fire. If you roll a 15 or higher on the d20, the time it takes to 
+				use the tools in this way is halved.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">spark, forge, coal</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Experimental Clockwork Trap" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+3">
+		<description>
+			<p>
+				When you use your Action to rotate the energy crystal at the center 
+				of this trap to activate it, it forms three concentric metal rings 
+				that snap shut when a creature steps on it. The trap can be affixed 
+				by a heavy chain to an immobile object, such as a tree or a spike 
+				driven into the ground. A creature that steps on the plate must succeed 
+				on a DC 15 Dexterity saving throw or take 1d4 piercing damage plus 1d4 
+				lightning damage and stop moving. The trap adapts its color to its environment, 
+				requiring a DC 15 Perception check to spot. Thereafter, until the creature breaks 
+				free of the trap, its Movement is limited by the length of the chain or other 
+				affixing item it is attached to. A creature can use its Action to make a DC 15 
+				Strength check, freeing itself or another creature within its reach on a success. 
+				Each failed check deals 1 piercing damage and 1d4 lightning damage to the trapped 
+				creature. A trapped creature has its movement reduced by 10 feet and take 1d4 lightning 
+				damage per 5 feet traveled. A trap has 50% chance of becoming unusable after trapping 
+				a creature.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">clock, trap</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+</elements>
