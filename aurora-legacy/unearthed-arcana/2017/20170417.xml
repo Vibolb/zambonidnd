@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Feats for Skills</name>
-		<update version="0.0.6">
+		<update version="1.0.0">
 			<file name="20170417.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2017/20170417.xml" />
 		</update>
 	</info>

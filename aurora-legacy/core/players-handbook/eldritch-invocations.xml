@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/eldritch-invocations.xml" />
 		</update>
 	</info>

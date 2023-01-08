@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>One Grung Above</name>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="one-grung-above.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/one-grung-above.xml" />
 		</update>
 	</info>

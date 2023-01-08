@@ -4,7 +4,7 @@
 		<name>Forbidden Graveyard Patron</name>
 		<description>Forbidden Graveyard Patron</description>
 		<author url="https://www.genfantasypress.com/about-the-compendium">Genuine Fantasy Press</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="warlock-forbidden-graveyard.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/archetypes/warlock-forbidden-graveyard.xml" />
 		</update>
 	</info>

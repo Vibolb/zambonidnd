@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Fisher Background</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="fisher.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/ghosts-of-saltmarsh/backgrounds/fisher.xml" />
 		</update>
 	</info>

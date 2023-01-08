@@ -4,7 +4,7 @@
 		<name>War Magic</name>
 		<description>The War Magic archetype from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
-		<update version="0.1.3">
+		<update version="1.0.0">
 			<file name="wizard-warmagic.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/xanathars-guide-to-everything/archetypes/wizard-warmagic.xml" />
 		</update>
 	</info>

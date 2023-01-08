@@ -4,7 +4,7 @@
 		<name>Elf Subraces</name>
 		<description>Elf Subrace from Planeshift: Zendikar</description>
 		<author url="https://media.wizards.com/2016/downloads/magic/Plane%20Shift%20Zendikar.pdf">Planeshift: Zendikar</author>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="subrace-elf-zendikar.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/planeshift/zendikar/subrace-elf-zendikar.xml" />
 		</update>
 	</info>

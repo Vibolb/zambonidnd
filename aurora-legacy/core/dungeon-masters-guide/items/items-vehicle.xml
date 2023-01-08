@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Vehicles</name>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="items-vehicle.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/dungeon-masters-guide/items/items-vehicle.xml" /> <!-- file name is explained in the DMG.index file -->
 		</update>
 	</info>

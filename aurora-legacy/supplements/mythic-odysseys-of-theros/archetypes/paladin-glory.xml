@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Oath of Glory</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/mythic-odysseys-of-theros/archetypes/paladin-glory.xml" />
 		</update>
 	</info>

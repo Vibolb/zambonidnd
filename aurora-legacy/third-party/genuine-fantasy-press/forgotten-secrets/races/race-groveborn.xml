@@ -4,7 +4,7 @@
         <name>The Groveborn</name>
         <description>The Groveborn race from The Compendium of Forgotten Secrets.</description>
         <author url="https://www.genfantasypress.com/about-the-compendium">Genuine Free Press</author>
-        <update version="0.0.2">
+        <update version="1.0.0">
 			<file name="race-groveborn.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/races/race-groveborn.xml" />
 		</update>
 	</info>

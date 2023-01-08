@@ -4,7 +4,7 @@
 		<name>Inquisitor</name>
 		<description>Inquisitor Background</description>
 		<author url="https://media.wizards.com/2016/dnd/downloads/Plane_Shift_Innistrad.pdf">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="background-inquisitor.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/planeshift/innistrad/background-inquisitor.xml" />
 		</update>
 	</info>

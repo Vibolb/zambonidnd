@@ -4,7 +4,7 @@
 		<name>Serpent Empress Patron</name>
 		<description>Serpent Empress Patron</description>
 		<author url="https://www.genfantasypress.com/about-the-compendium">Genuine Fantasy Press</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="warlock-serpent-empress.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/archetypes/warlock-serpent-empress.xml" />
 		</update>
 	</info>

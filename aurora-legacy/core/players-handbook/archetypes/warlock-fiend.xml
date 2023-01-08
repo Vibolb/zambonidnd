@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/archetypes/warlock-fiend.xml" />
 		</update>
 	</info>

@@ -3,12 +3,12 @@
 	<info>
 		<name>Armor</name>
 		<update version="1.0.0.1">
-			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-armor.xml" />
+			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-armor.xml" />
 		</update>
 	</info>
 	
 	<!-- place your elements here -->
-	<element name="Mistwalker Armor" id="ID_DNDC1_MAGIC_ITEM_MISTWALKER_ARMOR" source="DnDCustomContent - Campaign One" type="Magic Item">
+	<element name="Mistwalker Armor" id="ID_DNDC1_MAGIC_ITEM_MISTWALKER_ARMOR" source="zambonidnd - campaign one" type="Magic Item">
         <description>
             <p>
                 <em>
@@ -50,7 +50,7 @@
         </rules>
         
     </element>
-    <element name="Aegis of the Pleased Gods" id="ID_DNDC1_MAGIC_ITEM_AEGIS_OF_THE_PLEASED_GODS" source="DnDCustomContent - Campaign One" type="Magic Item">
+    <element name="Aegis of the Pleased Gods" id="ID_DNDC1_MAGIC_ITEM_AEGIS_OF_THE_PLEASED_GODS" source="zambonidnd - campaign one" type="Magic Item">
         <description>
             <p>
                 <em>
@@ -112,7 +112,7 @@
             <set name="weight" lb="6">6 lb.</set>
         </setters>
     </element>
-    <element name="Doain's Prayer of Providence" type="Magic Item" id="ID_DNDC1_ARMOR_DOAINS_PRAYER_OF_PROVIDENCE" source="DnDCustomContent - Campaign One">
+    <element name="Doain's Prayer of Providence" type="Magic Item" id="ID_DNDC1_ARMOR_DOAINS_PRAYER_OF_PROVIDENCE" source="zambonidnd - campaign one">
         <description>
             <p><em>
                 Conviction is worthless unless it is converted into conduct.

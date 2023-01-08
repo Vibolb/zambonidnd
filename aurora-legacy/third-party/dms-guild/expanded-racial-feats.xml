@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Expanded Racial Feats</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="expanded-racial-feats.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/expanded-racial-feats.xml" />
 		</update>
 	</info>

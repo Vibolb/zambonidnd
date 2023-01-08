@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Divine Herald</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="rogue-divine-herald.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/xanathars-lost-notes-to-everything-else/archetypes/rogue-divine-herald.xml" />
 		</update>
 	</info>

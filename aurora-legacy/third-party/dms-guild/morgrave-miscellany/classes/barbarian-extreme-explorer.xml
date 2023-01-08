@@ -4,7 +4,7 @@
 		<name>Extreme Explorer</name>
 		<description>The Extreme Explorer from Morgrave Miscellany</description>
 		<author url="https://www.dmsguild.com/browse.php?author=Keith%20Baker">Keith Baker &amp; Ruty Rutenberg</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="barbarian-extreme-explorer.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/morgrave-miscellany/classes/barbarian-extreme-explorer.xml" />
 		</update>
 	</info>

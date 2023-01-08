@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Ancestral Guardian</name>
-		<update version="0.0.6">
+		<update version="1.0.0">
 			<file name="barbarian-ancestralguardian.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/xanathars-guide-to-everything/archetypes/barbarian-ancestralguardian.xml" />
 		</update>
 	</info>

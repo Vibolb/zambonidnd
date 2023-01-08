@@ -4,7 +4,7 @@
 		<name>College of Harbingers</name>
 		<description>College of Harbingers from The Compendium of Forgotten Secrets</description>
 	    <author url="https://www.genfantasypress.com/about-the-compendium">Genuine Free Press</author>
-    	<update version="0.0.1">
+    	<update version="1.0.0">
       		<file name="bard-harbinger.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/compendium-of-forgotten-secrets/archetypes/bard-harbinger.xml" />
 		</update>
 	</info>

@@ -4,7 +4,7 @@
 		<name>Pact of the Host</name>
 		<description>The Pact of the Host from Morgrave Miscellany</description>
 		<author url="https://www.dmsguild.com/browse.php?author=Keith%20Baker">Keith Baker &amp; Ruty Rutenberg</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="warlock-host-pact.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/morgrave-miscellany/classes/warlock-host-pact.xml" />
 		</update>
 	</info>

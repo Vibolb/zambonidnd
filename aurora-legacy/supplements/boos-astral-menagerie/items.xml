@@ -3,7 +3,7 @@
 	<info>
 		<name>Items</name>
 		<description>Items from Boo’s Astral Menagerie</description>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/boos-astral-menagerie/items.xml" />
 		</update>
 	</info>

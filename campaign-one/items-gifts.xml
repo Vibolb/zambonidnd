@@ -3,10 +3,10 @@
     <info>
     <name>Supernatural Gifts</name>
     <update version="1.0.0.1">
-    <file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-gifts.xml" name="items-gifts.xml"/>
+    <file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-gifts.xml" name="items-gifts.xml"/>
     </update>
     </info>
-    <element name="Aratrh'Oa's Blessing" id="ID_DNDC1_MAGIC_ITEM_ARATHROAS_BLESSING" source="DnDCustomContent - Campaign One" type="Magic Item">
+    <element name="Aratrh'Oa's Blessing" id="ID_DNDC1_MAGIC_ITEM_ARATHROAS_BLESSING" source="zambonidnd - campaign one" type="Magic Item">
         <description>
         <p>
             <ul>

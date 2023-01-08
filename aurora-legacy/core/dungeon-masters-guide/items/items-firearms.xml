@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Firearms</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="items-firearms.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/dungeon-masters-guide/items/items-firearms.xml" />
 		</update>
 	</info>

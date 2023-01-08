@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Haunted One</name>
-        <update version="0.0.9">
+        <update version="1.0.0">
             <file name="background-hauntedone.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/curse-of-strahd/backgrounds/background-hauntedone.xml" />
         </update>
     </info>

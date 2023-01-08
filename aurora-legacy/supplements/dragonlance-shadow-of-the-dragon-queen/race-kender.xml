@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Kender</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="race-kender.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/dragonlance-shadow-of-the-dragon-queen/race-kender.xml" />
 		</update>
 	</info>

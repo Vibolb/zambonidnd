@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Half-Orc</name>
-		<update version="0.2.2">
+		<update version="1.0.0">
 			<file name="race-halforc.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/races/race-halforc.xml" />
 		</update>
 	</info>

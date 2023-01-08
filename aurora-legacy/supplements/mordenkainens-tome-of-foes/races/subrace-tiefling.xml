@@ -4,7 +4,7 @@
 		<name>Tiefling Subraces</name>
 		<description>The Tiefling Subraces from Mordenkainen’s Tome of Foes</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/mordenkainens-tome-foes">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="subrace-tiefling.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/mordenkainens-tome-of-foes/races/subrace-tiefling.xml" />
 		</update>
 	</info>

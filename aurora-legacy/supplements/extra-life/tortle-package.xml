@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Tortle Package</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="tortle-package.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/extra-life/tortle-package.xml" />
 		</update>
 	</info>

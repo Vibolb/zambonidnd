@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Items from Critical Role: Call of the Netherdeep</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/critical-role-call-of-the-netherdeep/items.xml" />
 		</update>
 	</info>

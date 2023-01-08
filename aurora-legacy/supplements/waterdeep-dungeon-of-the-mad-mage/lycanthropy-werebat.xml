@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Werebat Lycanthropy Option</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="lycanthropy-werebat.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/waterdeep-dungeon-of-the-mad-mage/lycanthropy-werebat.xml" />
 		</update>
 	</info>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Quandrix Student Background</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="background-quandrix-student.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-quandrix-student.xml" />
 		</update>
 	</info>

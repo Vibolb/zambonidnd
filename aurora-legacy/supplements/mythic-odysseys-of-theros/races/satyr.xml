@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Satyr</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="satyr.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/mythic-odysseys-of-theros/races/satyr.xml" />
 		</update>
 	</info>

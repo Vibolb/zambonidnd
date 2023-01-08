@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Aasimar from Monsters of the Multiverse</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/monsters-of-the-multiverse/race-aasimar.xml" />
 		</update>
 	</info>
