@@ -4,7 +4,7 @@
         <name>The Shadow Cabal</name>
         <description>The Shadow Cabal archetype.</description>
         <author url="http://mfov.magehandpress.com/2018/04/the-shadow-cabal.html">Mage Hand Press</author>
-        <update version="0.1.2">
+        <update version="1.0.0">
             <file name="warlock-shadowcabal.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/mage-hand-press/archetypes/warlock-shadowcabal.xml" />
         </update>
     </info>

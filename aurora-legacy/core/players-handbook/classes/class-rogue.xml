@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Rogue</name>
-		<update version="0.3.3">
+		<update version="1.0.0">
 			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/classes/class-rogue.xml" />
 		</update>
 	</info>

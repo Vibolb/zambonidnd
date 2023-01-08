@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Witherbloom Student Background</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="background-witherbloom-student.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-witherbloom-student.xml" />
 		</update>
 	</info>

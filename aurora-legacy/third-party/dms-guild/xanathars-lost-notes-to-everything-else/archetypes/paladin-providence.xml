@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Oath of Providence</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="paladin-providence.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/xanathars-lost-notes-to-everything-else/archetypes/paladin-providence.xml" />
 		</update>
 	</info>

@@ -4,7 +4,7 @@
 		<name>Storm Lord Patron</name>
 		<description>Storm Lord Patron</description>
 		<author url="https://www.genfantasypress.com/about-the-compendium">Genuine Fantasy Press</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="warlock-storm-lord.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/archetypes/warlock-storm-lord.xml" />
 		</update>
 	</info>

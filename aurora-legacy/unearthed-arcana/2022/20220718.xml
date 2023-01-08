@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Wonders of the Multiverse</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="20220718.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2022/20220718.xml" />
 		</update>
 	</info>

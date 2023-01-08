@@ -4,7 +4,7 @@
 		<name>Wildspacer</name>
 		<description></description>
 		<author url="https://dnd.wizards.com/products/spelljammer">Astral Adventurer's Guide</author>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="background-wildspacer.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/astral-adventurers-guide/backgrounds/background-wildspacer.xml" />
 		</update>
 	</info>

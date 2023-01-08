@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Tabaxi</name>
-		<update version="0.1.1">
+		<update version="1.0.0">
 			<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/volos-guide-to-monsters/race-tabaxi.xml" />
 		</update>
 	</info>

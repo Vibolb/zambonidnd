@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deep Magic: Combat Divination</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="18-combat-divination.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/kobold-press/deep-magic/18-combat-divination.xml" />
 		</update>
 	</info>

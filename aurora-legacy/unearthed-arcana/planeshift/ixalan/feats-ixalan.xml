@@ -4,7 +4,7 @@
 		<name>Feats</name>
 		<description>Feats from Plane Shift: Ixalan.</description>
 		<author url="https://media.wizards.com/2018/downloads/magic/plane-shift_ixalan.pdf">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="feats-ixalan.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/planeshift/ixalan/feats-ixalan.xml" />
 		</update>
 	</info>

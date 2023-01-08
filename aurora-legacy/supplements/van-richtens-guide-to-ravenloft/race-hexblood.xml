@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Hexblood</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="race-hexblood.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/van-richtens-guide-to-ravenloft/race-hexblood.xml" />
 		</update>
 	</info>

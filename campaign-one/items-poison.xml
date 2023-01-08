@@ -4,11 +4,11 @@
 		<name>Poison</name>
 		<description></description>
 		<update version="1.0.0.1">
-			<file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-poison.xml" name="items-poison.xml" />
+			<file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-poison.xml" name="items-poison.xml" />
 		</update>
 	</info>
 	<!-- poison -->
-	<element name="Ettercap Venom" type="Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ITEM_POISON_ETTERCAP_POISON">
+	<element name="Ettercap Venom" type="Item" source="zambonidnd - campaign one" id="ID_DNDC1_ITEM_POISON_ETTERCAP_POISON">
 		<description>
 			<p>
 				<em>

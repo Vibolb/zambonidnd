@@ -3,10 +3,10 @@
     <info>
         <name>Spells</name>
         <update version="1.0.4.0">
-            <file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/spells.xml" name="spells.xml" />
+            <file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/spells.xml" name="spells.xml" />
         </update>
     </info>
-    <element name="A Tooth for a Tooth" id="ID_DNDC1_SPELL_A_TOOTH_FOR_A_TOOTH" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="A Tooth for a Tooth" id="ID_DNDC1_SPELL_A_TOOTH_FOR_A_TOOTH" source="zambonidnd - campaign one" type="Spell">
         <supports>Lex Talionis</supports>
         <description>
             <p>You stab your attacker in retaliation, attempting to siphon their life force to strengthen your own. Make a melee spell attack or a melee attack with Lex Talionis against the creature whose attack triggered this reaction. If the attack hits, the weapon deals its regular damage plus 1d4 necrotic damage, and grants you an amount of temporary hit points equal to the amount of additional necrotic damage dealt</p>
@@ -27,7 +27,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="A Eye for an Eye" id="ID_DNDC1_SPELL_AN_EYE_FOR_AN_EYE" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="A Eye for an Eye" id="ID_DNDC1_SPELL_AN_EYE_FOR_AN_EYE" source="zambonidnd - campaign one" type="Spell">
         <supports>Lex Talionis</supports>
         <description>
             <p>When a creature you can see within 60 feet of you hits you with a ranged attack or a ranged spell attack, you command Lex Talionis' eye to glare at it as a reaction. The target must succeed a DC 12 Constitution saving throw or take 1d6 necrotic damage. A creature that cannot see you automatically succeeds. On a failed save, a creature <b>made of flesh</b> begins to stiffens as some of its cells turn to stone. Its speed is halved and it has disadvantage on Dexterity saving throws for 1 minute. It can repeat the saving throw at the end of each subsequent turn, ending the effect on a successful save</p>
@@ -50,7 +50,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Skeletal Tail" id="ID_DNDC1_SPELL_SKELETAL_TAIL" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Skeletal Tail" id="ID_DNDC1_SPELL_SKELETAL_TAIL" source="zambonidnd - campaign one" type="Spell">
         <supports>Cleric, Druid, Warlock, Wizard</supports>
         <description>
             <p>You grow a long, lizard-like tail made of sharpened bones. As a reaction on to an enemy moving in a 20 feet radius around you,
@@ -77,7 +77,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Slime Tentacle" id="ID_DNDC1_SPELL_SLIME_TENTACLE" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Slime Tentacle" id="ID_DNDC1_SPELL_SLIME_TENTACLE" source="zambonidnd - campaign one" type="Spell">
         <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>
@@ -105,7 +105,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Weakening Corruption" id="ID_DNDC1_SPELL_WEAKENING_CORRUPTION" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Weakening Corruption" id="ID_DNDC1_SPELL_WEAKENING_CORRUPTION" source="zambonidnd - campaign one" type="Spell">
         <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>
@@ -131,7 +131,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Summon Draconic Spirit" id="ID_DNDC1_SPELL_SUMMON_DRACONIC_SPIRIT" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Summon Draconic Spirit" id="ID_DNDC1_SPELL_SUMMON_DRACONIC_SPIRIT" source="zambonidnd - campaign one" type="Spell">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
             <p>
@@ -172,7 +172,7 @@
 			<set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Gale Weapon" id="ID_DNDC1_SPELL_GALE_WEAPON" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Gale Weapon" id="ID_DNDC1_SPELL_GALE_WEAPON" source="zambonidnd - campaign one" type="Spell">
         <supports>Ranger</supports>
         <description>
             <p>
@@ -209,7 +209,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Glide" id="ID_DNDC1_SPELL_GLIDE" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Glide" id="ID_DNDC1_SPELL_GLIDE" source="zambonidnd - campaign one" type="Spell">
         <supports>Artificer, Druid, Ranger, Sorcerer, Wizard</supports>
         <description>
             <p>
@@ -253,7 +253,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Swoop" id="ID_DNDC1_SPELL_SWOOP" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Swoop" id="ID_DNDC1_SPELL_SWOOP" source="zambonidnd - campaign one" type="Spell">
         <supports>Artificer, Druid, Ranger, Sorcerer, Wizard</supports>
         <description>
             <p>
@@ -280,7 +280,7 @@
                 <set name="isRitual">false</set>
             </setters>
     </element>
-    <element name="Cyclone" id="ID_DNDC1_SPELL_CYCLONE" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Cyclone" id="ID_DNDC1_SPELL_CYCLONE" source="zambonidnd - campaign one" type="Spell">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
             <p>
@@ -312,7 +312,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Flowing Armor - Air" id="ID_DNDC1_SPELL_FLOWING_ARMOR_AIR" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Flowing Armor - Air" id="ID_DNDC1_SPELL_FLOWING_ARMOR_AIR" source="zambonidnd - campaign one" type="Spell">
         <supports>Druid</supports>
         <description>
             <p>
@@ -346,7 +346,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Nystul's Magic Aura" id="ID_DNDC1_SPELL_NYSTULS_MAGIC_AURA" source="DnDCustomContent - Campaign One" type="Spell">
+    <element name="Nystul's Magic Aura" id="ID_DNDC1_SPELL_NYSTULS_MAGIC_AURA" source="zambonidnd - campaign one" type="Spell">
         <supports>Wizard</supports>
         <description>
             <p>
@@ -396,7 +396,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Word of Censure" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_WORD_OF_CENSURE">
+    <element name="Word of Censure" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_WORD_OF_CENSURE">
         <supports>Cleric</supports>
         <description>
             <p>
@@ -424,7 +424,7 @@
           <set name="isRitual">false</set>
         </setters>
       </element>
-    <element name="Faerie's Blessing" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_FAERIES_BLESSING">
+    <element name="Faerie's Blessing" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_FAERIES_BLESSING">
         <supports>Bard, Druid, Ranger</supports>
         <description>
             <p>
@@ -452,7 +452,7 @@
         <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Duelist's Blessing" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_DUELISTS_BLESSING">
+    <element name="Duelist's Blessing" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_DUELISTS_BLESSING">
         <supports>Bard, Cleric, Paladin</supports>
         <description>
             <p>
@@ -480,7 +480,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Fireflower Bloom" type="Spell" source="DnDCustomContent - Campaign One" id="ID_DNDC1_SPELL_FIREFLOWER_BLOOM">
+    <element name="Fireflower Bloom" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_FIREFLOWER_BLOOM">
         <supports>Druid, Ranger</supports>
         <description>
             <p>

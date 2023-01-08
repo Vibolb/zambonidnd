@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Mage Hunter</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="wizard-mage-hunter.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/xanathars-lost-notes-to-everything-else/archetypes/wizard-mage-hunter.xml" />
 		</update>
 	</info>

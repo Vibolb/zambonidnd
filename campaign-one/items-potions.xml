@@ -3,11 +3,11 @@
 	<info>
 		<name>Potions</name>
 		<description></description>
-		<update version="0.0.2">
-			<file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-potions.xml" name="items-potions.xml" />
+		<update version="1.0.0">
+			<file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-potions.xml" name="items-potions.xml" />
 		</update>
 	</info>
-    <element name="Potion of Darkvision (Weak Lasting)" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_MAGIC_ITEM_WEAK_LASTING_POTION_OF_DARKVISION">		
+    <element name="Potion of Darkvision (Weak Lasting)" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_MAGIC_ITEM_WEAK_LASTING_POTION_OF_DARKVISION">		
         <description>
             <p>
                 <em>
@@ -30,7 +30,7 @@
             <set name="stackable">true</set>
         </setters>
     </element>
-    <element name="Spoiled Cocktail of Condensed Energy" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_MAGIC_ITEM_SPOILED_COCKTAIL_OF_CONDENSED_ENERGY" >
+    <element name="Spoiled Cocktail of Condensed Energy" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_MAGIC_ITEM_SPOILED_COCKTAIL_OF_CONDENSED_ENERGY" >
         <description>
             <p>
                 Drinking this potion allows you to benefit from a short rest instantly. 

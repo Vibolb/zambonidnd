@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Bard and Paladin</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="20190918.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2019/20190918.xml" />
 		</update>
 	</info>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Goliath</name>
-		<update version="0.1.8">
+		<update version="1.0.0">
 			<file name="race-goliath.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/volos-guide-to-monsters/race-goliath.xml" />
 		</update>
 	</info>

@@ -4,7 +4,7 @@
 		<name>Way of the Noble Serpent</name>
 		<description>Way of the Noble Serpent from The Compendium of Forgotten Secrets</description>
 	    <author url="https://www.genfantasypress.com/about-the-compendium">Genuine Free Press</author>
-    	<update version="0.0.1">
+    	<update version="1.0.0">
       		<file name="monk-nobleserpent.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/compendium-of-forgotten-secrets/archetypes/monk-nobleserpent.xml" />
 		</update>
 	</info>

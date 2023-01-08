@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Gothic Heroes</name>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="20160404.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2016/20160404.xml" />
 		</update>
 	</info>

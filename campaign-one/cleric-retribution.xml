@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.0.1">
-			<file name="cleric-retribution.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/cleric-retribution.xml" />
+		<update version="1.0.0">
+			<file name="cleric-retribution.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/cleric-retribution.xml" />
 		</update>
 	</info>
 
-	<element name="Retribution Domain" type="Archetype" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_RETRIBUTION_DOMAIN">
+	<element name="Retribution Domain" type="Archetype" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_RETRIBUTION_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<p>Exscinders are Heaven's censors, scouring the planes for texts containing information 
@@ -59,7 +59,7 @@
 			<grant type="Archetype Feature" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_BLAZE_OF_GLORY" level="17"/>
 		</rules>
 	</element>
-	<element name="Bonus Proficiency" type="Archetype Feature" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_BONUSPROFICIENCY">
+	<element name="Bonus Proficiency" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_BONUSPROFICIENCY">
 		<description>
 			<p>When you choose this domain at 1st level, you gain proficiency with martial weapons.</p>
 		</description>
@@ -68,7 +68,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 		</rules>
 	</element>
-	<element name="Censor's Intuition" type="Archetype Feature" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_CENSORS_INTUITION">
+	<element name="Censor's Intuition" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_CENSORS_INTUITION">
 		<!-- <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_RETRIBUTION_DOMAIN_CENSORS_INTUITION</requirements> -->
 		<description>
 			<p>At 1st level, you learn the Word of Censure cantrip if you don't know it already. This doesn't count against your number of cantrips known. You add your wisdom 
@@ -85,7 +85,7 @@
             <grant type="Spell" id="ID_DNDC1_SPELL_WORD_OF_CENSURE" />
         </rules>
 	</element>
-	<element name="Searing Retribution" type="Archetype Feature" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_SEARING_RETRIBUTION">
+	<element name="Searing Retribution" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_SEARING_RETRIBUTION">
 		<!-- <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_RETRIBUTION_DOMAIN_SEARING_RETRIBUTION</requirements> -->
 		<description>
 			<p>Also at 1st level, you can turn harmful words against those that uttered them. When a creature within 60 feet of you that you can see targets you or an area you are in with a spell with verbal components, you can use your reaction to cause the creature to make a Wisdom saving throw. The creature takes 1d6 fire damage and 1d6 radiant damage on a failed saving throw, and half as much damage on a successful one. On a failed saving throw, you gain advantage on your Intelligence, Wisdom or Charisma saving throw against the triggering spell effect, if applicable.  
@@ -98,7 +98,7 @@
             </description>
         </sheet>
 	</element>
-	<element name="Channel Divinity: Heavenly Wrath" type="Archetype Feature" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_CHANNEL_DIVINITY_HEAVENLY_WRATH">
+	<element name="Channel Divinity: Heavenly Wrath" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_CHANNEL_DIVINITY_HEAVENLY_WRATH">
 		<!-- <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_RETRIBUTION_DOMAIN_CHANNEL_DIVINITY_HEAVENLY_WRATH</requirements> -->
 		<description>
 			<p>Starting at 2nd level, you can use your Channel Divinity to wield the power of holy fire with unchecked ferocity.</p>
@@ -108,7 +108,7 @@
 			<description>When you roll fire and/or radiant damage for an effect, you can use your Channel Divinity to deal maximum damage, instead of rolling.</description>
 		</sheet>
 	</element>
-	<element name="Herald of Submission" type="Archetype Feature" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_HERALD_OF_SUBMISSION">
+	<element name="Herald of Submission" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_HERALD_OF_SUBMISSION">
 		<!-- <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_RETRIBUTION_DOMAIN_HERALD_OF_SUBMISSION</requirements> -->
 		<description>
 			<p>At 6th level, you have become remarkably adept at channeling magical energy to compel others. If you cast a spell of the enchantment school using a spell slot 
@@ -123,7 +123,7 @@
             </description>
 		</sheet>
 	</element>
-	<element name="Divine Strike" type="Archetype Feature" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_DIVINE_STRIKE">
+	<element name="Divine Strike" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_DIVINE_STRIKE">
 		<!-- <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_STRIKE_OR_POTENT_SPELLCASTING</requirements> -->
 		<description>
 			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. When you reach 14th level, the extra damage increases by 1d8 radiant damage.</p>
@@ -133,7 +133,7 @@
 			<description level="14">Once on each of your turn +1d8 fire damage and +1d8 radiant damage with a weapon attack.</description>
 		</sheet>
 	</element>
-	<element name="Blaze of Glory" type="Archetype Feature" source="DnDCustomContent - Campaign One" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_BLAZE_OF_GLORY">
+	<element name="Blaze of Glory" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_BLAZE_OF_GLORY">
 		<!-- <requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_RETRIBUTION_DOMAIN_BLAZE_OF_GLORY</requirements> -->
 		<description>
 			<p>Starting at 17th level, you can delay death for an instant to perform a final heroic act. 

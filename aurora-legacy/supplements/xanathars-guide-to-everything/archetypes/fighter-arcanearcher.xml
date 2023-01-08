@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Arcane Archer</name>
-		<update version="0.1.0">
+		<update version="1.0.0">
 			<file name="fighter-arcanearcher.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/xanathars-guide-to-everything/archetypes/fighter-arcanearcher.xml" />
 		</update>
 	</info>

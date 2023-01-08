@@ -2,13 +2,13 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="1.0.1">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-weapons.xml" />
+		<update version="1.0.0">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-weapons.xml" />
 		</update>
 	</info>
 	
 	<!-- place your elements here -->
-	<element name="Lex Talionis" id="ID_DNDC1_MAGIC_ITEM_LEX_TALIONIS" source="DnDCustomContent - Campaign One" type="Magic Item">
+	<element name="Lex Talionis" id="ID_DNDC1_MAGIC_ITEM_LEX_TALIONIS" source="zambonidnd - campaign one" type="Magic Item">
         <description>
             <p>While attuned to this item <em>and</em> wielding it, the bearer can cast <strong><em>An Eye for an Eye</em></strong> and <strong><em>A Tooth for a Tooth</em></strong> once per long rest.</p>
             <div class="reference">
@@ -33,7 +33,7 @@
             <grant type="Spell" id="ID_DNDC1_SPELL_A_TOOTH_FOR_A_TOOTH" />
         </rules>
     </element>
-    <element name="Merciful Macuahuitl" id="ID_DNDC1_MAGIC_ITEM_MERCIFUL_MACUAHUITL" source="DnDCustomContent - Campaign One" type="Magic Item">
+    <element name="Merciful Macuahuitl" id="ID_DNDC1_MAGIC_ITEM_MERCIFUL_MACUAHUITL" source="zambonidnd - campaign one" type="Magic Item">
         <description>
         <p>
             <em>
@@ -62,7 +62,7 @@
             <set name="weapon">Longsword</set>
         </setters>
     </element>
-    <element name="Vial Dagger" id="ID_DNDC1_MAGIC_ITEM_VIAL_DAGGER" source="DnDCustomContent - Campaign One" type="Magic Item">
+    <element name="Vial Dagger" id="ID_DNDC1_MAGIC_ITEM_VIAL_DAGGER" source="zambonidnd - campaign one" type="Magic Item">
         <description>
             <p>
                 <em>
@@ -91,7 +91,7 @@
             <set name="weapon">Dagger</set>
         </setters>
     </element>
-    <element name="Harvest" id="ID_DNDC1_MAGIC_ITEM_HARVEST" source="DnDCustomContent - Campaign One" type="Magic Item">
+    <element name="Harvest" id="ID_DNDC1_MAGIC_ITEM_HARVEST" source="zambonidnd - campaign one" type="Magic Item">
         <description>
             <p>
                 <em>
@@ -120,7 +120,7 @@
             <set name="weapon">Sickle</set>
         </setters>
     </element>
-    <element name="Tribute to Phoenixes" id="ID_DNDC1_MAGIC_ITEM_TRIBUTE_TO_PHOENIXES" source="DnDCustomContent - Campaign One" type="Magic Item">
+    <element name="Tribute to Phoenixes" id="ID_DNDC1_MAGIC_ITEM_TRIBUTE_TO_PHOENIXES" source="zambonidnd - campaign one" type="Magic Item">
         <description>
             <p>
                 <em>

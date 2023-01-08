@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Magic Items and Hoard Magic Items</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="items-magic.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/fizbans-treasury-of-dragons/items-magic.xml" />
 		</update>
 	</info>

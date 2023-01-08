@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Border Kingdoms</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="the-border-kingdoms.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/the-border-kingdoms.xml" />
 		</update>
 	</info>

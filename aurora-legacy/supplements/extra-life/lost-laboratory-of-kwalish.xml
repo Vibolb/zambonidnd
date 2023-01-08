@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lost Laboratory of Kwalish</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="lost-laboratory-of-kwalish.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/extra-life/lost-laboratory-of-kwalish.xml" />
 		</update>
 	</info>

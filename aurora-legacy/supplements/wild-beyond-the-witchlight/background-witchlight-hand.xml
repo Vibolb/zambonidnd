@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Witchlight Hand Background</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="background-witchlight-hand.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/wild-beyond-the-witchlight/background-witchlight-hand.xml" />
 		</update>
 	</info>

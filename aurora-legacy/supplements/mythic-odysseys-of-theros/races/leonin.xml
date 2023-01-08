@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Leonin</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="leonin.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/mythic-odysseys-of-theros/races/leonin.xml" />
 		</update>
 	</info>

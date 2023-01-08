@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="kalashtar.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/eberron-rising-from-the-last-war/races/kalashtar.xml" />
 		</update>
 	</info>	

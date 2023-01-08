@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lorehold Student Background</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="background-lorehold-student.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/strixhaven-a-curriculum-of-chaos/backgrounds/background-lorehold-student.xml" />
 		</update>
 	</info>

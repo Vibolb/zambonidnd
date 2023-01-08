@@ -3,10 +3,10 @@
 	<info>
 		<name>Information</name>
 		<update version="1.0.0.1">
-			<file name="information.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/information.xml" />
+			<file name="information.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/information.xml" />
 		</update>
 	</info>
-	<element name="Draconic Spirit" type="Information" source="DnDCustomContent - Campaign One" id="ID_DNDC1_INFORMATION_SUMMON_DRACONIC_SPIRIT_STATBLOCK">
+	<element name="Draconic Spirit" type="Information" source="zambonidnd - campaign one" id="ID_DNDC1_INFORMATION_SUMMON_DRACONIC_SPIRIT_STATBLOCK">
 		<description>
 			<p><em>Large Dragon, Neutral</em></p>
 			<ul class="unstyled mb">
@@ -49,7 +49,7 @@
 			</p>
 		</description>
 	</element>
-	<element name="Fused armor" type="Information" id="ID_DNDC1_INFORMATION_FUSED_ARMOR" source="DnDCustomContent - Campaign One">
+	<element name="Fused armor" type="Information" id="ID_DNDC1_INFORMATION_FUSED_ARMOR" source="zambonidnd - campaign one">
 		<description>
 			<p>
 				Fused armor means that any armor you are wearing 

@@ -4,7 +4,7 @@
 		<name>College of Keys</name>
 		<description>The College of Keys from Morgrave Miscellany.</description>
 		<author url="https://www.dmsguild.com/browse.php?author=Keith%20Baker">Keith Baker &amp; Ruty Rutenberg</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="bard-keys.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/morgrave-miscellany/classes/bard-keys.xml" />
 		</update>
 	</info>

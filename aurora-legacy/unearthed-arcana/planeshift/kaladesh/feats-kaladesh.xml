@@ -4,7 +4,7 @@
 		<name>Feats</name>
 		<description>Feats from Plane Shift: kaladesh.</description>
 		<author url="https://media.wizards.com/2017/downloads/magic/Plane-Shift_Kaladesh.pdf">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="feats-kaladesh.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/planeshift/kaladesh/feats-kaladesh.xml" />
 		</update>
 	</info>

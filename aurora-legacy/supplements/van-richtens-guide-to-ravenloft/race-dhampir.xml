@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Dhampir</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="race-dhampir.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/van-richtens-guide-to-ravenloft/race-dhampir.xml" />
 		</update>
 	</info>

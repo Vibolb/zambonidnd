@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Tiefling</name>
-		<update version="0.2.6">
+		<update version="1.0.0">
 			<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/races/race-tiefling.xml" />
 		</update>
 	</info>

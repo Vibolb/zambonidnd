@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Oath of Judgment</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="paladin-judgment.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/archetypes/paladin-judgment.xml" />
 		</update>
 	</info>

@@ -4,7 +4,7 @@
 		<name>Mystic</name>
 		<description>Mystic from Unearthed Arcana.</description>
 		<author url="https://media.wizards.com/2017/dnd/downloads/UAMystic3.pdf">Wizards of the Coast</author>
-		<update version="0.0.8">
+		<update version="1.0.0">
 			<file name="20170313.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2017/20170313.xml" />
 		</update>
 	</info>

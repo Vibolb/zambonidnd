@@ -4,7 +4,7 @@
 		<name>Circle of the Shepherd</name>
 		<description>The Circle of the Shepherd from Xanathar’s Guide to Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="druid-shepherd.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/xanathars-guide-to-everything/archetypes/druid-shepherd.xml" />
 		</update>
 	</info>

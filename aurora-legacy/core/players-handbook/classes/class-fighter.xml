@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Fighter</name>
-		<update version="0.4.2">
+		<update version="1.0.0">
 			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/classes/class-fighter.xml" />
 		</update>
 	</info>

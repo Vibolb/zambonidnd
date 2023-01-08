@@ -4,7 +4,7 @@
 		<name>Thri-Kreen</name>
 		<description></description>
 		<author url="https://dnd.wizards.com/products/spelljammer">Astral Adventurer's Guide</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="race-thri-kreen.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/astral-adventurers-guide/races/race-thri-kreen.xml" />
 		</update>
 	</info>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Harengon from Monsters of the Multiverse</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="race-harengon.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/monsters-of-the-multiverse/race-harengon.xml" />
 		</update>
 	</info>

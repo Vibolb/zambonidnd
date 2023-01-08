@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deep Magic: Shadow Magic</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="10-shadow-magic.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/kobold-press/deep-magic/10-shadow-magic.xml" />
 		</update>
 	</info>

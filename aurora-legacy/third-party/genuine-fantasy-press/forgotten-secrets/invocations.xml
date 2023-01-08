@@ -4,7 +4,7 @@
 		<name>Invocations</name>
 		<description>COFSA Invocations</description>
 		<author url="www.genfantasypress.com">Genuine Fantasy Press</author>
-		<update version="0.0.6">
+		<update version="1.0.0">
 			<file name="invocations.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/invocations.xml" />
 		</update>
 	</info>

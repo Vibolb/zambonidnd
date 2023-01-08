@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Companions</name>
-        <update version="0.0.4">
+        <update version="1.0.0">
             <file name="companions.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/companions.xml" />
         </update>
     </info>

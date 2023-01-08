@@ -4,7 +4,7 @@
 		<name>Gruul Anarch</name>
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters’ Guide to Ravnica</author>
-		<update version="0.0.6">
+		<update version="1.0.0">
 			<file name="gruul-anarch.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/guildmasters-guide-to-ravnica/backgrounds/gruul-anarch.xml" />
 		</update>
 	</info>

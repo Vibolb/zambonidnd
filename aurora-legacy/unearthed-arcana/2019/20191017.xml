@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Fighter, Ranger, and Rogue</name>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="20191017.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2019/20191017.xml" />
 		</update>
 	</info>

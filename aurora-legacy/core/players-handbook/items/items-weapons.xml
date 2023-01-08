@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/items/items-weapons.xml" />
 		</update>
 	</info>

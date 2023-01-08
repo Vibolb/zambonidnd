@@ -4,7 +4,7 @@
 		<name>Firbolg</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
-		<update version="0.2.0">
+		<update version="1.0.0">
 			<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/volos-guide-to-monsters/race-firbolg.xml" />
 		</update>
 	</info>

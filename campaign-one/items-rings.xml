@@ -2,11 +2,11 @@
 <elements>
     <info>
         <name>Rings</name>
-        <update version="1.0.1">
-            <file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-rings.xml" name="items-rings.xml"/>
+        <update version="1.0.0">
+            <file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-rings.xml" name="items-rings.xml"/>
         </update>
     </info>
-    <element name="Grandstander" id="ID_DNDC1_RING_GRANDSTANDER" source="DnDCustomContent - Campaign One" type="Magic Item">
+    <element name="Grandstander" id="ID_DNDC1_RING_GRANDSTANDER" source="zambonidnd - campaign one" type="Magic Item">
         <description>
             <p>
                 <em>You can only do so much pretending before you become the thing you're pretending to be</em>
