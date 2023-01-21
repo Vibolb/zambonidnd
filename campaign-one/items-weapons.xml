@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-weapons.xml" />
 		</update>
 	</info>
@@ -173,6 +173,7 @@
             <set name="rarity">Rare</set>
             <set name="attunement">true</set>
             <set name="weapon">Shortsword</set>
+            <set name="enhancement">1</set>
         </setters>
     </element>
 </elements>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="cleric-retribution.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/cleric-retribution.xml" />
 		</update>
 	</info>
@@ -82,7 +82,7 @@
 			</description>
         </sheet>
         <rules>
-            <grant type="Spell" id="ID_DNDC1_SPELL_WORD_OF_CENSURE" />
+            <grant type="Spell" id="ID_DNDC1_SPELL_WORD_OF_CENSURE" spellcasting="Cleric"/>
         </rules>
 	</element>
 	<element name="Searing Retribution" type="Archetype Feature" source="zambonidnd - campaign one" id="ID_DNDC1_ARCHETYPE_FEATURE_RETRIBUTION_SEARING_RETRIBUTION">
