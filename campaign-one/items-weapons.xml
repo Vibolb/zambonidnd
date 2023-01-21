@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-weapons.xml" />
 		</update>
 	</info>
