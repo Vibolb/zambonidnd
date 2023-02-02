@@ -3,11 +3,7 @@
 	<info>
 		<name>Poison</name>
 		<description></description>
-<<<<<<< HEAD
 		<update version="1.0.0.2">
-=======
-		<update version="1.0.0.1">
->>>>>>> a945954359d62fcc00936dfc8d2cc1e02eb3c970
 			<file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-poison.xml" name="items-poison.xml" />
 		</update>
 	</info>
