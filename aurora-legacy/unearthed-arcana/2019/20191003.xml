@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Cleric, Druid, and Wizard</name>
-		<update version="0.0.6">
+		<update version="1.0.0">
 			<file name="20191003.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2019/20191003.xml" />
 		</update>
 	</info>		

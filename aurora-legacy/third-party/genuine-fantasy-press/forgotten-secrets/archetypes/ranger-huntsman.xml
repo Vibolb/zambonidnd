@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Hound of the Huntsman</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="ranger-huntsman.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/ranger-huntsman.xml" />
 		</update>
 	</info>	

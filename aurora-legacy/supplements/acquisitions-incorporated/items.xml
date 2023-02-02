@@ -2,7 +2,7 @@
 <elements>
 	<info>
         <name>Items</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/acquisitions-incorporated/items.xml" />
 		</update>
 	</info>

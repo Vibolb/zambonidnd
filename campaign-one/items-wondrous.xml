@@ -2,13 +2,13 @@
 <elements>
 	<info>
 		<name>Wondrous items</name>
-		<update version="1.0.3">
-			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-wondrous.xml" />
+		<update version="1.0.0">
+			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-wondrous.xml" />
 		</update>
 	</info>
 	
 	<!-- place your elements here -->
-	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_BAND_OF_EQUANIMITY" name="Band of Equanimity">
+	<element type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_BAND_OF_EQUANIMITY" name="Band of Equanimity">
 		<description>
 			<p> While attuned to this item: </p>
 			<p>
@@ -36,7 +36,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_AGONIZING_DRYADS_HEART" name="Agonizing Dryad's Heart">
+	<element type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_AGONIZING_DRYADS_HEART" name="Agonizing Dryad's Heart">
 		<description>
 			<p>Attuning to this item causes the heart to merge with your body, effectively replacing your own and granting you the following:</p>
 			<p>
@@ -99,7 +99,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
-	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_CELESTIAL_GUARDIANS_STARLIGHT_CLOAK" name="Celestial Guardian`s Starlight Cloak">
+	<element type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_CELESTIAL_GUARDIANS_STARLIGHT_CLOAK" name="Celestial Guardian's Starlight Cloak">
 		<description>
 			<p><em>Seek wisdom from heavenly bodies as our forefathers did. Listen to their song, and dance with them as they fall.</em></p>
 			<p>
@@ -156,7 +156,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
-	<element  type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_LINGERING_CANDLE_HOLDER" name="Lingering Candle Holder">
+	<element  type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_LINGERING_CANDLE_HOLDER" name="Lingering Candle Holder">
 		<description>
 			<p><em>
 				Legend has it that Adeila could not bear the loss of her lover, Angmar, and became hateful toward the concept of transience itself.
@@ -182,7 +182,7 @@
 			<set name="rarity">Common</set>
 		</setters>
 	</element>
-	<element type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_BLOODHUNT_AMULET" name="Bloodhunt Amulet">
+	<element type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_BLOODHUNT_AMULET" name="Bloodhunt Amulet">
 		<supports>Ranger</supports>
 		<description>
 			<p>
@@ -223,7 +223,7 @@
 			<set name="rarity">very rare</set>
 		</setters>
 	</element>
-	<element name="Fists of the Guiding Star" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_FISTS_OF_THE_GUIDING_STAR">
+	<element name="Fists of the Guiding Star" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_FISTS_OF_THE_GUIDING_STAR">
 		<supports>Monk</supports>
 		<description>
 			<p>
@@ -261,7 +261,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
 		</rules>
 	</element>
-	<element name="Sandskin Mantle" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_SANDSKIN_MANTLE">
+	<element name="Sandskin Mantle" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_SANDSKIN_MANTLE">
 		<description>
 			<p>
 				<em>
@@ -306,7 +306,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Captioning Cuff of Reading" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_CAPTIONING_CUFF_OF_READING">
+	<element name="Captioning Cuff of Reading" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_CAPTIONING_CUFF_OF_READING">
 		<description>
 			<p>
 				While wearing this platinum ear cuff, you gain the following:
@@ -346,7 +346,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Shadow-touched Boots" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_SHADOW_TOUCHED_BOOTS">
+	<element name="Shadow-touched Boots" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_SHADOW_TOUCHED_BOOTS">
 		<description>
 			<p>
 				<em>
@@ -402,7 +402,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
-	<element name="Fireweaver Gloves" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_FIREWEAVER_GLOVES">
+	<element name="Fireweaver Gloves" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_FIREWEAVER_GLOVES">
 		<description>
 			<p>
 				<em>
@@ -447,7 +447,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="All-purpose Tool, +1" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+1">
+	<element name="All-purpose Tool, +1" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+1">
 		<description>
 			<p>
 				This simple screwdriver can transform into a variety of tools; 
@@ -476,7 +476,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="All-purpose Tool, +2" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+2">
+	<element name="All-purpose Tool, +2" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+2">
 		<description>
 			<p>
 				This simple screwdriver can transform into a variety of tools; 
@@ -505,7 +505,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
-	<element name="All-purpose Tool, +3" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+3">
+	<element name="All-purpose Tool, +3" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+3">
 		<description>
 			<p>
 				This simple screwdriver can transform into a variety of tools; 
@@ -534,7 +534,7 @@
 			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
-	<element name="Gaas' Unworldly Coat" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_GAAS_UNWORLDLY_COAT" source="DnDCustomContent - Campaign One">
+	<element name="Gaas' Unworldly Coat" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_GAAS_UNWORLDLY_COAT" source="zambonidnd - campaign one">
 		<description>
 			<p>
 				<em>
@@ -593,7 +593,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Vestment of the Breathless" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_VESTMENT_OF_THE_BREATHLESS" source="DnDCustomContent - Campaign One">
+	<element name="Vestment of the Breathless" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_VESTMENT_OF_THE_BREATHLESS" source="zambonidnd - campaign one">
 		<description>
 			<p><em>
 				Breathing techniques were invented by the last 
@@ -658,7 +658,7 @@
 			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
-	<element name="Ean'el's Undying Tunic" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_EANEL_UNDYING_TUNIC" source="DnDCustomContent - Campaign One">
+	<element name="Ean'el's Undying Tunic" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_EANEL_UNDYING_TUNIC" source="zambonidnd - campaign one">
 		<description>
 			<p><em>
 				The important thing is this: to be able, 
@@ -721,7 +721,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Lilypad Token" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_LILYPAD_TOKEN" source="DnDCustomContent - Campaign One">
+	<element name="Lilypad Token" type="Magic Item" id="ID_DNDC1_WONDROUS_ITEM_LILYPAD_TOKEN" source="zambonidnd - campaign one">
 		<description>
 			<p><em>
 				A token of remembrance of a peaceful time. Before war, when 
@@ -752,7 +752,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Bag of Spellybeans" id="ID_DNDC1_WONDROUS_ITEM_BAG_OF_SPELLYBEANS" type="Magic Item" source="DnDCustomContent - Campaign One">
+	<element name="Bag of Spellybeans" id="ID_DNDC1_WONDROUS_ITEM_BAG_OF_SPELLYBEANS" type="Magic Item" source="zambonidnd - campaign one">
 		<description>
 			<p>
 				<em>
@@ -794,7 +794,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Lysander's Everlasting Spark" id="ID_DNDC1_WONDROUS_ITEM_LYSANDERS_EVERLASTING_SPARK" type="Magic Item" source="DnDCustomContent - Campaign One">
+	<element name="Lysander's Everlasting Spark" id="ID_DNDC1_WONDROUS_ITEM_LYSANDERS_EVERLASTING_SPARK" type="Magic Item" source="zambonidnd - campaign one">
 		<description>
 			<p>
 				<em>
@@ -835,7 +835,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Forgekeeper's Spark" id="ID_DNDC1_WONDROUS_ITEM_FORGEKEEPERS_SPARK" type="Magic Item" source="DnDCustomContent - Campaign One">
+	<element name="Forgekeeper's Spark" id="ID_DNDC1_WONDROUS_ITEM_FORGEKEEPERS_SPARK" type="Magic Item" source="zambonidnd - campaign one">
 		<description>
 			<p>
 				<em>
@@ -889,7 +889,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-	<element name="Experimental Clockwork Trap" type="Magic Item" source="DnDCustomContent - Campaign One" id="ID_DNDC1_WONDROUS_ITEM_ALL_PURPOSE_TOOL_+3">
+	<element name="Experimental Clockwork Trap" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_EXPERIMENTAL_CLOCKWORK_TRAP">
 		<description>
 			<p>
 				When you use your Action to rotate the energy crystal at the center 
@@ -914,6 +914,34 @@
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp"></set>
 			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="LuckLeaf" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_LUCKLEAF">
+		<description>
+			<p><em>With a bit of luck, even failure can be successful.</em></p>
+			<p>
+				This plant is commonly thought to be a special kind of clover. 
+				However, a <em>luckleaf</em> is a separate, magical species that grows 
+				in random locations across the Material Plane and has 5 leaves. 
+				While a <em>luckleaf</em> is on your person, you can choose to expend any 
+				number of its leaves (no action required). When you do so, you 
+				gain a +1 bonus or take a -1 penalty to any roll you make for 
+				each expended leaf. This bonus or penalty can't change the total 
+				result beyond the highest or lowest number possible for the die 
+				you rolled. You can wait to use this property until after seeing 
+				the total of the roll, but before the DM determines the outcome 
+				of it. An expended leaf withers and turns to dust. When the last  
+				leaf is expended, the plant becomes a nonmagical stem.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">luck, leaf, clover</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>

@@ -3,7 +3,7 @@
 	<info>
 		<name>State of Hillsfar</name>
 		<description>Backgrounds from State of Hillsfar article as part of the Adventurers League: Rage of Demons storyline</description>
-		<update version="0.0.1">
+		<update version="1.0.0">
             <file name="state-of-hillsfar.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/adventurers-league/state-of-hillsfar.xml" />
 		</update>
 	</info>

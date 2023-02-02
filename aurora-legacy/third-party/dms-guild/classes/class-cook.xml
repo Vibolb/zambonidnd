@@ -4,7 +4,7 @@
 		<name>Cook</name>
 		<description>The cook class from DM’s Guild.</description>
 		<author url="https://www.dmsguild.com/product/232212/The-cook-Class">Sam Grierson</author>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="class-cook.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/classes/class-cook.xml" />
 		</update>
 	</info>

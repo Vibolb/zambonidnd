@@ -4,7 +4,7 @@
 		<name>Criminal</name>
 		<description>Criminal Background</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.0.8">
+		<update version="1.0.0">
 			<file name="background-criminal.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/backgrounds/background-criminal.xml" />
 		</update>
 	</info>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deep Magic: Battle Magic</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="08-battle-magic.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/kobold-press/deep-magic/08-battle-magic.xml" />
 		</update>
 	</info>

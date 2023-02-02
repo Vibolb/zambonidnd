@@ -4,7 +4,7 @@
         <name>Way of the Immortal Flame</name>
         <description>The Way of the Immortal Flame archetype.</description>
         <author url="http://mfov.magehandpress.com/2017/09/way-of-immortal-flame.html">Mage Hand Press</author>
-        <update version="0.1.2">
+        <update version="1.0.0">
             <file name="monk-immortalflame.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/mage-hand-press/archetypes/monk-immortalflame.xml" />
         </update>
     </info>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
         <name>Plaintiff</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="plaintiff.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/acquisitions-incorporated/backgrounds/plaintiff.xml" />
 		</update>
 	</info>

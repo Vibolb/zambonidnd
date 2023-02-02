@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description>The Items from Candlekeep Mysteries</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/candlekeep-mysteries">Candlekeep Mysteries</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/candlekeep-mysteries/items.xml" />
 		</update>
 	</info>

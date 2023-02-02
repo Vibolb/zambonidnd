@@ -4,7 +4,7 @@
 		<name>The Weaver of Lies Patron</name>
 		<description>Weaver of Lies Patron</description>
 		<author url="https://www.genfantasypress.com/about-the-compendium">Genuine Fantasy Press</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="warlock-weaver-of-lies.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/archetypes/warlock-weaver-of-lies.xml" />
 		</update>
 	</info>

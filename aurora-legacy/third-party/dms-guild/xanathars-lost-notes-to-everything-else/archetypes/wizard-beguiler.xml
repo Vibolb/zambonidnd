@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Beguiler</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="wizard-beguiler.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/xanathars-lost-notes-to-everything-else/archetypes/wizard-beguiler.xml" />
 		</update>
 	</info>

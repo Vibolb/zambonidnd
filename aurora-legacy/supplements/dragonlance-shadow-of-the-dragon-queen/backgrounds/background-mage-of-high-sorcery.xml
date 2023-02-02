@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Mage of High Sorcery Background</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="background-mage-of-high-sorcery.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/dragonlance-shadow-of-the-dragon-queen/backgrounds/background-mage-of-high-sorcery.xml" />
 		</update>
 	</info>

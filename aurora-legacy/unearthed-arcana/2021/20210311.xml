@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Folk of the Feywild</name>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="20210311.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2021/20210311.xml" />
 		</update>
 	</info>

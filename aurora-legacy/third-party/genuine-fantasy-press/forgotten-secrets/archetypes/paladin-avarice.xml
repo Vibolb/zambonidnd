@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Oath of Avarice</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="paladin-avarice.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/compendium-of-forgotten-secrets/archetypes/paladin-avarice.xml" />
 		</update>
 	</info>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>The Magus</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="class-magus.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/classes/class-magus.xml" />
 		</update>
 	</info>

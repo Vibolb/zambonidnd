@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.1.7">
-			<file name="source.xml" url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/source.xml" />
+		<update version="1.0.0">
+			<file name="source.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/source.xml" />
 		</update>
 	</info>
-	<element name="DnDCustomContent - Campaign One" type="Source" source="Core" id="ID_CUSTOM_SOURCE_DND_WITH_THE_BOYS_CAMPAIGN_ONE">
+	<element name="zambonidnd - campaign one" type="Source" source="Core" id="ID_CUSTOM_SOURCE_ZAMBONI_DND_CAMPAIGN_ONE">
 		<description>
 			<![CDATA[<p><strong>Homebrew content from Campaign One of Dnd With the Boys!</p><p>Daniel B (DM)</p><p>Vincent B</p><p>Alex Van.</p><p>Alex Vielf.</p><p>Tristan M-R</p><p>Laurent M.</p>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">DNDC1</set>
-			<set name="url">https://github.com/Vibolb/dndcustomcontent.git</set>
-			<set name="author" abbreviation="Vincent B" url="https://github.com/Vibolb/dndcustomcontent.git">Vincent B.</set>
+			<set name="url">https://github.com/Vibolb/zambonidnd.git</set>
+			<set name="author" abbreviation="Vincent B" url="https://github.com/Vibolb/zambonidnd.git">Vincent B.</set>
 			<set name="collaborators" abbreviation="A Vannobel, D Beland">A Vannobel, D Beland</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
-			<set name="release">20221228</set>
+			<set name="release">20230107</set>
 		</setters>
 	</element>
 </elements>

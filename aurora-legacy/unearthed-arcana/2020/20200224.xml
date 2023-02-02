@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Subclasses, Part 3</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="20200224.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2020/20200224.xml" />
 		</update>
 	</info>	

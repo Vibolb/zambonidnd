@@ -4,7 +4,7 @@
 		<name>Blackthorn Lineage</name>
 		<description>Blackthorn Lineage Sorcerous Origin from The Compendium of Forgotten Secrets.</description>
 		<author url="https://www.genfantasypress.com/about-the-compendium">Genuine Fantasy Press</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="sorcerer-blackthorn-lineage.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/archetypes/sorcerer-blackthorn-lineage.xml" />
 		</update>
 	</info>

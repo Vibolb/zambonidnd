@@ -4,7 +4,7 @@
 		<name>Unearthed Arcana: Into the Wild</name>
 		<description>This month, Unearthed Arcana wanders into the wilderness, with new ways to approach outdoor exploration.</description>
 		<author url="http://dnd.wizards.com/articles/unearthed-arcana/wild">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="20180212.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2018/20180212.xml" />
 		</update>
 	</info>

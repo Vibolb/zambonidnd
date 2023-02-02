@@ -4,7 +4,7 @@
 		<name>Chromatic Dragonborn</name>
 		<description>The Chromatic Dragonborn from Fizban's Treasury of Dragons</description>
 		<author url="https://dnd.wizards.com/products/treasury-dragons">Fizban's Treasury of Dragons</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="race-chromatic-dragonborn.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/fizbans-treasury-of-dragons/races/race-chromatic-dragonborn.xml" />
 		</update>
 	</info>

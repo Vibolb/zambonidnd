@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Draconic Options</name>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="20210414.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/unearthed-arcana/2021/20210414.xml" />
 		</update>
 	</info>

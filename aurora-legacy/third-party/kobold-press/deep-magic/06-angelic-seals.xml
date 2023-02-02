@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deep Magic: Angelic Seals</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="06-angelic-seals.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/kobold-press/deep-magic/06-angelic-seals.xml" />
 		</update>
 	</info>

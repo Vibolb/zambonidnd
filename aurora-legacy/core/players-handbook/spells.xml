@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells</name>
-		<update version="0.5.2">
+		<update version="1.0.0">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/spells.xml" />
 		</update>
 	</info>

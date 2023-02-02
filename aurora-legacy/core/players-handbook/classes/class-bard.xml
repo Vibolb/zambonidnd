@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Bard</name>
-		<update version="0.5.1">
+		<update version="1.0.0">
 			<file name="class-bard.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/players-handbook/classes/class-bard.xml" />
 		</update>
 	</info>

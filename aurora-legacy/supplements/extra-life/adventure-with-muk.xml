@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Adventure with Muk</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="adventure-with-muk.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/extra-life/adventure-with-muk.xml" />
 		</update>
 	</info>

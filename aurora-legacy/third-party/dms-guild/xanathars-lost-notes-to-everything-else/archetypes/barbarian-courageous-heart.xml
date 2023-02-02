@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Path of the Courageous Heart</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="barbarian-courageous-heart.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/xanathars-lost-notes-to-everything-else/archetypes/barbarian-courageous-heart.xml" />
 		</update>
 	</info>

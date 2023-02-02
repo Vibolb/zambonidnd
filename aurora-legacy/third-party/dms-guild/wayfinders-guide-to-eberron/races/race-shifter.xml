@@ -4,7 +4,7 @@
 		<name>Shifter</name>
 		<description></description>
 		<author url="https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e">Wizards of the Coast</author>
-		<update version="0.0.3">
+		<update version="1.0.0">
 			<file name="race-shifter.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/wayfinders-guide-to-eberron/races/race-shifter.xml" />
 		</update>
 	</info>

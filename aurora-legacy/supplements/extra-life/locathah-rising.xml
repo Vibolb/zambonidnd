@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Locathah</name>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="locathah-rising.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/extra-life/locathah-rising.xml" />
 		</update>
 	</info>

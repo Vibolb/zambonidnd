@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Owlin</name>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="race-owlin.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/supplements/strixhaven-a-curriculum-of-chaos/race-owlin.xml" />
 		</update>
 	</info>

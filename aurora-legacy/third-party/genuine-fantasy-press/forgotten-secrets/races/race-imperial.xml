@@ -4,7 +4,7 @@
         <name>The Imperial</name>
         <description>The Imperial race from The Compendium of Forgotten Secrets.</description>
         <author url="https://www.genfantasypress.com/about-the-compendium">Genuine Free Press</author>
-        <update version="0.0.2">
+        <update version="1.0.0">
 			<file name="race-imperial.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/genuine-fantasy-press/forgotten-secrets/races/race-imperial.xml" />
 		</update>
 	</info>

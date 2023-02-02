@@ -4,7 +4,7 @@
         <name>Way of the Howling Gale</name>
         <description>The Way of the Howling Gale archetype.</description>
         <author url="http://mfov.magehandpress.com/2018/02/way-of-howling-gale.html">Mage Hand Press</author>
-        <update version="0.0.2">
+        <update version="1.0.0">
             <file name="monk-howlinggale.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/mage-hand-press/archetypes/monk-howlinggale.xml" />
         </update>
     </info>

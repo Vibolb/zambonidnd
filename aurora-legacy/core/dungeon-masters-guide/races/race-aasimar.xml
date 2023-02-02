@@ -4,7 +4,7 @@
 		<name>Aasimar</name>
 		<description>Aasimar example race from the Dungeon Master’s Guide</description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
-		<update version="0.0.2">
+		<update version="1.0.0">
 			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/core/dungeon-masters-guide/races/race-aasimar.xml" />	
 		</update>
 	</info>

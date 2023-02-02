@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="subclass-ranger-amazonian.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/arcanum-worlds/odyssey-of-the-dragonlords/subclass-ranger-amazonian.xml" />
 		</update>
 	</info>

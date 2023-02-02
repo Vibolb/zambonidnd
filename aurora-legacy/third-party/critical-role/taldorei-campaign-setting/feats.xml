@@ -4,7 +4,7 @@
         <name>Feats</name>
         <description>The Feats from Tal’Dorei Campaign Setting.</description>
         <author url="https://geekandsundry.com/shows/critical-role/">Tal’Dorei Campaign Setting</author>
-        <update version="0.0.5">
+        <update version="1.0.0">
             <file name="feats.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/critical-role/taldorei-campaign-setting/feats.xml" />
         </update>
     </info>

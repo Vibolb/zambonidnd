@@ -3,7 +3,7 @@
 	<info>
 		<name>Bloodhunter</name>
 		<description>2020 Version</description>
-		<update version="0.0.4">
+		<update version="1.0.0">
 			<file name="class-bloodhunter.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/aurora-legacy/third-party/dms-guild/classes/class-bloodhunter.xml" />
 		</update>
 	</info>
