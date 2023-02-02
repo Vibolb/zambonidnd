@@ -3,8 +3,8 @@
 	<info>
 		<name>Poison</name>
 		<description></description>
-		<update version="1.0.0.1">
-			<file url="https://raw.githubusercontent.com/Vibolb/dndcustomcontent/master/campaign-one/items-poison.xml" name="items-poison.xml" />
+		<update version="1.0.0.2">
+			<file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-poison.xml" name="items-poison.xml" />
 		</update>
 	</info>
 	<!-- poison -->
@@ -35,5 +35,59 @@
             <set name="rarity">Uncommon</set>
 		</setters>
 		<sheet alt="Ettercap Venom (Injury)" />
+	</element>
+	<element name="Concentrated Fey Blood" type="Item" id="DNDC1_ITEM_POISON_CONCENTRATED_FEYBLOOD" source="zambonidnd - campaign one">
+		<description>
+			<p>
+				<em>
+					By infusing this magic concoction with their blood, skilled poisoners can challenge their victim to a battle of will. One they can't win, just try to not lose. 
+				</em>
+			</p>
+			<p>This poison must be mixed with a creature's blood (the poisoner) to become effective. A creature subjected to this poison must succeed a Charisma Saving throw or become charmed by the poisoner for a few hours. The DC equals 12 + the poisoner's charisma modifier and the effect lasts for a number of hours equal the poisoner's charisma modifier (minimum of 1). During that time, the target feels compelled to obey the poisoner's commands, unless it causes them or their allies direct harm. The target can repeat the saving throw each time they take damage. They roll with disadvantage if the source of the damage is the poisoner. This poison requires only one tenth of the usual dosage to be effective.
+			</p>
+            <div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injure,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="0">0</set>
+			<set name="stackable">true</set>
+            <set name="rarity">Rare</set>
+		</setters>
+		<sheet alt="Concentrated Feyblood (Injury)" >
+			<description>
+				CHA saving throw (DC 12+{{charisma:modifier}}), target is charmed if it fails for {{charisma:modifier}} hours (minimum of 1).
+			</description>
+		</sheet>
+	</element>
+	<element name="Concentrated Spider Venom" type="Item" id="DNDC1_ITEM_POISON_CONCENTRATED_SPIDER_VENOM" source="zambonidnd - campaign one">
+		<description>
+			<p>
+				<em>
+					Distilled to it's maximum, this poison is perfect for subtle strikes through discreet implements.
+				</em>
+			</p>
+			<p>A creature subjected to this poison must succeed on a DC 14 Constitution saving throw, taking 10 (3d6) poison damage on a failed save. This poison requires only one tenth of the usual dosage to be effective.
+			</p>
+            <div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injure,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="0">0</set>
+			<set name="stackable">true</set>
+            <set name="rarity">Uncommon</set>
+		</setters>
+		<sheet alt="Concentrated Sipder Venom (Injury)" >
+			<description>
+				CON saving throw (DC 14), 10 (3d6) poison damage on a failed save.
+			</description>
+		</sheet>
 	</element>
 </elements>
