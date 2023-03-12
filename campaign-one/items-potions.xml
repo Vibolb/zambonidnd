@@ -3,7 +3,7 @@
 	<info>
 		<name>Potions</name>
 		<description></description>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-potions.xml" name="items-potions.xml" />
 		</update>
 	</info>
@@ -52,7 +52,47 @@
             <set name="keywords">energy, cocaine, blue</set>
             <set name="category">Potions</set>
             <set name="cost" currency="gp">180</set>
-            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="weight" lb="0"></set>
+            <set name="type">Potion</set>
+            <set name="rarity">Rare</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+    <element name="Cocktail of Otherwordly Pleasure" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_MAGIC_ITEM_COCKTAIL_OF_OTHERWORDLY_PLEASURE" >
+        <description>
+            <p><em>This colorless translucent and odorless liquid always seems still, even when its container is shaken. </em></p>
+            <p>
+                A typical flask holds 12 ounces of this liquid. A portion is 3 ounces. As an action, a creature can drink up to 4 portions 
+                of this liquid at once. While under the effects of this magical drink, a creature feels a surge of adrenaline, has trouble 
+                focusing on many things at once, is disinhibited, and experiences all sensations and emotions much more pleasantly than they 
+                actually are. Additional effects are described in the table below. Taking a new sip while already affected produces the effects
+                of the sum of portions drank and resets the duration to that of the new total. The side effects are cumulative and last for 
+                the duration or until the creature dies.
+            </p>
+            <p>
+                <table style="text-align:center">
+                    <thead>
+                        <tr><td>Intake</td><td>Duration(minutes)</td><td>Side effects</td></tr>
+                    </thead>
+                    <tr><td>1</td><td>1</td><td>None</td></tr>
+                    <tr><td>2</td><td>2.5</td><td>Invisible, poisoned*, casting spells and maintaining concentration requires concentration check DC 10 + intake</td></tr>
+                    <tr><td>3</td><td>5</td><td>-2 on attacks, ability checks and saving throws</td></tr>
+                    <tr><td>4</td><td>10</td><td>Constitution save DC 8 + intake or fall unconscious for the duration</td></tr>
+                    <tr><td>5</td><td>15</td><td>Hover speed equal to walking speed</td></tr>
+                    <tr><td>6</td><td>20</td><td>Speed halved</td></tr>
+                    <tr><td>7</td><td>25</td><td>Incorporeal</td></tr>
+                    <tr><td>8</td><td>30</td><td>-3 on attacks, ability checks and saving throws</td></tr>
+                    <tr><td>8</td><td>+5/potion</td><td>Sees and can communicate with ghosts, loss of consciousness at this level of intake can cause seizure or death</td></tr>
+                </table>
+            </p>
+            <p>* While poisoned this way, a creature also has disadvantage on all saving throws.</p>
+            <p>** An incorporeal creature is shunted to the nearest unoccupied space and takes 2d10 force damage if it ends its turn inside an object or a creature.</p>
+        </description>
+        <setters>
+            <set name="keywords">energy, pleasure, otherwordly</set>
+            <set name="category">Potions</set>
+            <set name="cost" currency="gp"></set>
+            <set name="weight" lb="0.5">0.5 lb</set>
             <set name="type">Potion</set>
             <set name="rarity">Rare</set>
             <set name="stackable">true</set>
