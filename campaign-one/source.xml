@@ -16,7 +16,7 @@
 			<set name="collaborators" abbreviation="A Vannobel, D Beland">A Vannobel, D Beland</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
-			<set name="release">20230312</set>
+			<set name="release">20230426</set>
 		</setters>
 	</element>
 </elements>
