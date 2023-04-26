@@ -8,8 +8,8 @@
 	</info>
 	
 	<!-- place your elements here -->
-	<element name="Ointment of Sound Sleep" id="" source="zambonidnd - campaign one" type="Item">
-	<description>
+	<element name="Ointment of Sound Sleep" id="ID_DNDC1_ITEM_OINTMENT_OF_SOUND_SLEEP" source="zambonidnd - campaign one" type="Item">
+		<description>
 			<p>This ointment is prepared by mixing grounded valerian roots and plants with calming and/or 
 			sleep-inducing properties (ashwagandha, camomile, hops, kava, lavender, lemon balm, passionflower) 
 			in an ointment base (in a ratio of 4.5 gp worth of roots and plants to 5 silver worth of ointment base) 
@@ -28,9 +28,9 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Frostscreen" id="" source="zambonidnd - campaign one" type="Item">
-	<description>
-			<p>This ointment is obtained by mixing careful proportions of vegetal oil, water, wax, vinegar and alcohol. 
+	<element name="Frostscreen" id="ID_DNDC1_ITEM_FROSTSCREEN" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>This oily cream is obtained by mixing careful proportions of vegetal oil, water, wax, vinegar and alcohol. 
 			   Whereas such mundane ingredients are fairly easy and cheap to provide, it is the knowledge and worksmanship 
 			   required to transform them into this topic cream that jusitifies its popularity and significant value in cold
 			    climates and exposed ecosystems. For one dose, the typical price is valued at 10GP as it takes about one day to produce with the proper equipment.
