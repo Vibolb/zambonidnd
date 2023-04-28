@@ -31,18 +31,20 @@
 	<element name="Frostscreen" id="ID_DNDC1_ITEM_FROSTSCREEN" source="zambonidnd - campaign one" type="Item">
 		<description>
 			<p>This oily cream is obtained by mixing careful proportions of vegetal oil, water, wax, vinegar and alcohol. 
-			   Whereas such mundane ingredients are fairly easy and cheap to provide, it is the knowledge and worksmanship 
-			   required to transform them into this topical cream that jusitifies its popularity and significant value in cold
-			    climates and exposed ecosystems. For one dose, the typical price is valued at 10GP as it takes about one day to produce with the proper equipment.
+			   Whereas such mundane ingredients are fairly easy and cheap to provide, this product is typically found with more
+			   exotic additives, like rare herbs or spices that provide medicinal benefits to the user. Moreover, it is the knowledge and worksmanship 
+			   required to transform all these components into this topical cream that jusitifies its popularity and significant value in cold 
+			   climates and exposed ecosystems. For one dose, the typical price is valued between 20 and 25 gold pieces as it takes 
+			   about one day to produce with the proper equipment. Mixing special herbs and 
 			</p>
-			<p>It takes ten minutes to apply one dose to a creature by applying and massaging the cream on the skin all over the body.
+			<p>It takes ten minutes to apply one dose to a creature by applying and massaging the cream on the skin all over the body. 
 			   For the next 8 hours, the creature has advantage on Constitution saving throws to resist the effects of intense cold.
 			</p>
 		</description>
 		<setters>
 			<set name="keywords">herbalist,alchemist,herbs,cold,balm,cream</set>
 			<set name="category">Adventuring Gear</set>
-			<set name="cost" currency="gp">10</set>
+			<set name="cost" currency="gp">25</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
