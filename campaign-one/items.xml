@@ -49,4 +49,277 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	<element name="Glowroot" id="ID_DNDC1_ITEM_GLOWROOT" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>A root that emits a soft luminescence in the dark. Emanates dim light when consumed or crushed.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plant</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5.5</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+		<element name="Phoenix Feather" id="ID_DNDC1_ITEM_PHOENIX_FEATHER" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Shed naturally from a young phoenix; glows with a soft ember light.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plant</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">74.8</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Nymph's Tear" id="ID_DNDC1_ITEM_NYMPHS_TEAR" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Crystalline droplet, gleaming softly in moonlight. Rumored to be tears of a forest nymph.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plant</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">46.8</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Bloodmoss" id="ID_DNDC1_ITEM_BLOODMOSS" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Crimson moss found in deep caves. Provides warmth for a day when consumed.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plant</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">18.8</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Wisp Lantern" id="ID_DNDC1_ITEM_WISP_LANTERN" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Delicate plant with glowing, floating seeds. Used to mark paths in the dark.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">lantern, wisp, light</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">43.4</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Eldertwig" id="ID_DNDC1_ITEM_ELDERTWIG" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Twig from an elder tree. Unlocks hidden paths àwhen waved in the right pattern.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">30.7</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Drake Scale" id="ID_DNDC1_ITEM_DRAKE_SCALE" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Shed scale from a minor drake. Protects from the elements.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,component,spell,drake,scale</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">107.1</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Banshee Wail Vine" id="ID_DNDC1_ITEM_BANSHEE_WAIL_VINE" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Plant emitting a soft, mournful sound when wind blows. Offers minor protection against emotional damage.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">43.3</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Moonpetal" id="ID_DNDC1_ITEM_MOONPETAL" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Delicate flower that blooms in moonlight. Comsuption allow to see through the night.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">12.2</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Silvered Leaf" id="ID_DNDC1_ITEM_SILVERED_LEAF" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Rare leaf with a silver sheen. Wards off nightmares when placed under a pillow.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">4.8</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Shadowthorn" id="ID_DNDC1_ITEM_SHADOWTHORN" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Thorn that seems to absorb light. Creates a small area of darkness when used.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants,thorn</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">63.6</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Starbud" id="ID_DNDC1_ITEM_STARBUD" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Bud that sparkles like a star. Releases a tiny burst of starlight when crushed.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">104.3</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Frostfern" id="ID_DNDC1_ITEM_FROSTFERN" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Fern that is cold to the touch and never melts. Can chill food or drinks without freezing.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Chimera Hair" id="ID_DNDC1_ITEM_CHIMERA_HAIR" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Coarse hair from a chimera's mane infused with the essence of multiple beasts.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,hair,component</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">158.3</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sunberry" id="ID_DNDC1_ITEM_SUNBERRY" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Shimmering golden berry. Boosts energy and reduces sleep need when consumed.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants,berry</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">508.9</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Stormbloom" id="ID_DNDC1_ITEM_STORMBLOOM" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Flower that vibrates during storms. Predicts the weather for the next 24 hours when ground and thrown into the air.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">40.3</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Echolily" id="ID_DNDC1_ITEM_ECHOLILY" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Flower that captures and replays the last sounds it hears when touched.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">31.9</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sands of Time" id="ID_DNDC1_ITEM_SAND_OF_TIME" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Fine golden sand that falls slower than regular sand. Rumored to be from hourglasses of ancient time wizards.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">226.2</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Pegasus Feather" id="ID_DNDC1_ITEM_PEGASUS_FEATHER" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Pristine white feather that floats indefinitely in the air.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">33.1</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Basilisk Basil" id="ID_DNDC1_ITEM_BASILISK_BASIL" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Herb that enhances resistance against petrification when ingested.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">46.8</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Aethercap Mushroom" id="ID_DNDC1_ITEM_AETHERCAP_MUSHROOM" source="zambonidnd - campaign one" type="Item">
+		<description>
+			<p>Translucent mushroom found near thin planar veils. Allows brief glimpses into other realms when consumed.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">herbalist,alchemist,herbs,plants</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">270.7</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
 </elements>
