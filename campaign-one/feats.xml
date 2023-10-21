@@ -54,14 +54,14 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase, Blight Touched" supports="DNDC1 Blight Touched" />
+			<select type="Feat Feature" name="Ability Score Increase, Blight Touched" supports="Blight Touched" />
 			<grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" />
 			<grant type="Feat Feature" id="ID_DNDC1_BLIGHT_TOUCHED_NATURES_HUNGER" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_BLIGHT_TOUCHED_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>DNDC1 Blight Touched</supports>
+		<supports>Blight Touched</supports>
 		<description>
 			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
 		</description>
@@ -74,7 +74,7 @@
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_BLIGHT_TOUCHED_WISDOM">
 		<compendium display="false" />
-		<supports>DNDC1 Blight Touched</supports>
+		<supports>Blight Touched</supports>
 		<description>
 			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
 		</description>
@@ -87,7 +87,7 @@
 	</element>
 	<element name="Charisma" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_BLIGHT_TOUCHED_CHARISMA">
 		<compendium display="false" />
-		<supports>DNDC1 Blight Touched</supports>
+		<supports>Blight Touched</supports>
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
 		</description>
@@ -261,14 +261,14 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase, Otherworldly Mind" supports="DNDC1 Otherworldly Mind" />
+			<select type="Feat Feature" name="Ability Score Increase, Otherworldly Mind" supports="Otherworldly Mind" />
 			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" />
 			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_OTHERWORLDLY_MIND_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>DNDC1 Otherworldly Mind</supports>
+		<supports>Otherworldly Mind</supports>
 		<description>
 			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
 		</description>
@@ -281,7 +281,7 @@
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_OTHERWORLDLY_MIND_WISDOM">
 		<compendium display="false" />
-		<supports>DNDC1 Otherworldly Mind</supports>
+		<supports>Otherworldly Mind</supports>
 		<description>
 			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
 		</description>
@@ -294,7 +294,7 @@
 	</element>
 	<element name="Charisma" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_OTHERWORLDLY_MIND_CHARISMA">
 		<compendium display="false" />
-		<supports>DNDC1 Otherworldly Mind</supports>
+		<supports>Otherworldly Mind</supports>
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
 		</description>
