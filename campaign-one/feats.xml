@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 
-	<element name="Astute" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_ASTUTE">
+	<element name="Astute" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_ASTUTE">
 		<description>
 			<p>Your mind is lightning quick, enabling you to rapidly analyze and learn from your mistakes. You gain the following benefits:</p>
 			<ul>
@@ -21,7 +21,7 @@
 		</rules>
 	</element>
 
-	<element name="Battlewise" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_BATTLEWISE">
+	<element name="Battlewise" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_BATTLEWISE">
 		<prerequisite>Wisdom 13 or higher</prerequisite>
 		<requirements>[wis:13]</requirements>
 		<description>
@@ -43,7 +43,7 @@
 		</rules>
 	</element>
 	
-	<element name="Blight Touched" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_BLIGHT_TOUCHED">
+	<element name="Blight Touched" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_BLIGHT_TOUCHED">
 		<description>
 			<p>The ever-hungry spirit of nature inhabits you, granting you the following benefits:</p>
 			<ul>
@@ -59,7 +59,7 @@
 			<grant type="Feat Feature" id="ID_DNDC1_BLIGHT_TOUCHED_NATURES_HUNGER" />
 		</rules>
 	</element>
-	<element name="Intelligence" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_INTELLIGENCE">
+	<element name="Intelligence" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_BLIGHT_TOUCHED_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>DNDC1 Blight Touched</supports>
 		<description>
@@ -72,7 +72,7 @@
 			<stat name="intelligence" value="1" alt="Blight Touched" />
 		</rules>
 	</element>
-	<element name="Wisdom" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_WISDOM">
+	<element name="Wisdom" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_BLIGHT_TOUCHED_WISDOM">
 		<compendium display="false" />
 		<supports>DNDC1 Blight Touched</supports>
 		<description>
@@ -85,7 +85,7 @@
 			<stat name="wisdom" value="1" alt="Blight Touched" />
 		</rules>
 	</element>
-	<element name="Charisma" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_CHARISMA">
+	<element name="Charisma" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_BLIGHT_TOUCHED_CHARISMA">
 		<compendium display="false" />
 		<supports>DNDC1 Blight Touched</supports>
 		<description>
@@ -98,7 +98,7 @@
 			<stat name="charisma" value="1" alt="Blight Touched" />
 		</rules>
 	</element>
-	<element name="Nature's Hunger" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_NATURES_HUNGER">
+	<element name="Nature's Hunger" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_BLIGHT_TOUCHED_NATURES_HUNGER">
 		<description>
 			<p>You can change the damage type of an instance of plant-based spell effect to necrotic, regaining half of the necrotic damage dealt this way as hit points. You regain all expended uses when you finish a long rest.</p>
 		</description>
@@ -107,7 +107,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Child of Twilight" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_CHILD_OF_TWILIGHT">
+	<element name="Child of Twilight" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_CHILD_OF_TWILIGHT">
 		<description>
 			<p>You play with light and darkness like artists create and warriors wield weapons, you gain the following benefits:</p>
 			<ul>
@@ -128,7 +128,7 @@
 			<grant type="Spell" id="ID_DNDC1_SPELL_ECLIPSIAN_BOLT" />
 		</rules>
 	</element>	
-	<element name="Chiaroscuro" type="Feat Feature" source="DNDC1" id="ID_DNDC1_CHIAROSCURO">
+	<element name="Chiaroscuro" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_CHIAROSCURO">
 		<description>
 			<p>As a bonus action, you can enter a state of twilight for one minute, which ends early if you are incapacitated. During that time, you can choose to treat lighting levels in any or all areas within 60 feet of you as either one step higher or one step lower for any or all of your features and abilities. You can use that feature a number of times equal to your proficiency bonus, you regain the ability to use it when you complete a long rest.</p>
 		</description>
@@ -136,7 +136,7 @@
 			<description>You enter a state of twilight during which you can choose to treat lighting levels in any or all areas within 60 feet of you as either one step higher or one step lower.</description>
 		</sheet>
 	</element>
-	<element name="Sun Blessed" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_SUN_BLESSED">
+	<element name="Sun Blessed" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_SUN_BLESSED">
 		<description>
 			<p>You are one with the light. While in bright light, you have advantage on saving throws against the frightened condition. You have a number of radiance charges equal to your proficiency bonus which you regain after a long rest and can spend to use the following abilities:</p>
 			<ul>
@@ -152,7 +152,7 @@
 			<grant type="Feat Feature" id="ID_DNDC1_RADIANCE_CHARGES" />
 		</rules>
 	</element>	
-	<element name="Radiance Charges" type="Feat Feature" source="DNDC1" id="ID_DNDC1_RADIANCE_CHARGES">
+	<element name="Radiance Charges" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_RADIANCE_CHARGES">
 		<description>
 			<p></p>
 		</description>
@@ -165,7 +165,7 @@
 		</sheet>
 	</element>
 
-	<element name="Fey Explorer" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_FEY_EXPLORER">
+	<element name="Fey Explorer" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_FEY_EXPLORER">
 		<description>
 			<p>You are accustomed to the eerie and fleeting paths present in the fey realms. You gain the following benefits:</p>
 			<ul>
@@ -182,7 +182,7 @@
 		</rules>
 	</element>
 	
-	<element name="Free Soul" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_FREE_SOUL">
+	<element name="Free Soul" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_FREE_SOUL">
 		<description>
 			<p>You have learned to partially detach your body from worldly constraints. You gain the following benefits:</p>
 			<ul>
@@ -200,7 +200,7 @@
 		</rules>
 	</element>
 	
-	<element name="Nimble" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_NIMBLE">
+	<element name="Nimble" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_NIMBLE">
 		<description>
 			<p>You can leap from place to place with unnatural ease. You gain the following:</p>
 			<ul>
@@ -219,7 +219,7 @@
 		</rules>
 	</element>
 	
-	<element name="Scroll Master" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_SCROLL_MASTER">
+	<element name="Scroll Master" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_SCROLL_MASTER">
 		<description>
 			<p>You accumulate and exploit spell scrolls, recognizing the worth they provide. In doing so, you developed an uncanny knack to create and use them. You gain the following:</p>
 			<ul>
@@ -235,7 +235,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Shadow Rover" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_SHADOW_ROVER">
+	<element name="Shadow Rover" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_SHADOW_ROVER">
 		<description>
 			<p>You are one with the shadows. While in darkness, you gain the following benefits:</p>
 			<ul>
@@ -250,7 +250,7 @@
 		</sheet>
 	</element>	
 	
-	<element name="Otherworldly Mind" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_OTHERWORLDLY_MIND">
+	<element name="Otherworldly Mind" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_OTHERWORLDLY_MIND">
 		<description>
 			<p>You’ve been touched by the monstrosities that lie beyond the known world. Perhaps they attempted to make a thrall out of you and failed, or perhaps you sought them out willingly for god forsaken reasons of your own. You gain the following benefits:</p>
 			<ul>
@@ -266,7 +266,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 		</rules>
 	</element>
-	<element name="Intelligence" type="Feat Feature" source="DNDC1" id="ID_DNDC1_OTHERWORLDLY_MIND_INTELLIGENCE">
+	<element name="Intelligence" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_OTHERWORLDLY_MIND_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>DNDC1 Otherworldly Mind</supports>
 		<description>
@@ -279,7 +279,7 @@
 			<stat name="intelligence" value="1" alt="Otherworldly Mind" />
 		</rules>
 	</element>
-	<element name="Wisdom" type="Feat Feature" source="DNDC1" id="ID_DNDC1_OTHERWORLDLY_MIND_WISDOM">
+	<element name="Wisdom" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_OTHERWORLDLY_MIND_WISDOM">
 		<compendium display="false" />
 		<supports>DNDC1 Otherworldly Mind</supports>
 		<description>
@@ -292,7 +292,7 @@
 			<stat name="wisdom" value="1" alt="Otherworldly Mind" />
 		</rules>
 	</element>
-	<element name="Charisma" type="Feat Feature" source="DNDC1" id="ID_DNDC1_OTHERWORLDLY_MIND_CHARISMA">
+	<element name="Charisma" type="Feat Feature" source="zambonidnd - campaign one" id="ID_DNDC1_OTHERWORLDLY_MIND_CHARISMA">
 		<compendium display="false" />
 		<supports>DNDC1 Otherworldly Mind</supports>
 		<description>
@@ -306,7 +306,7 @@
 		</rules>
 	</element>
 	
-	<element name="Party Animal" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_PARTY_ANIMAL">
+	<element name="Party Animal" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_PARTY_ANIMAL">
 		<description>
 			<p>Through time, you’ve realized that the difference between a party and a battle is minimal. Both include crowds, sweat and erratic movement, and you love it. You gain the following benefits:</p>
 			<ul>
@@ -323,7 +323,7 @@
 		</rules>
 	</element>	
 	
-	<element name="Weapon Specialist" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_WEAPON_SPECIALIST">
+	<element name="Weapon Specialist" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_WEAPON_SPECIALIST">
 		<prerequisite>Strength or Dexterity 13 or higher</prerequisite>
 		<requirements>([str:13]||[dex:13])</requirements>
 		<description>
