@@ -16,7 +16,7 @@
 		<file name="items-poison.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-poison.xml" />
 		<file name="items-potions.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-potions.xml" />
 		<file name="items-armor.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-armor.xml" />
-		<file name="information.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/information.xml" />"
+		<file name="information.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/information.xml" />
 		<file name="cleric-retribution.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/cleric-retribution.xml"/>
 		<file name="feats.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/feats.xml"/>
 	</files>
