@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
+	<info>
+		<update version="1.0.0">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/feats.xml" />
+		</update>
+	</info>
 	<element name="Astute" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_ASTUTE">
 		<description>
 			<p>Your mind is lightning quick, enabling you to rapidly analyze and learn from your mistakes. You gain the following benefits:</p>
@@ -20,7 +24,6 @@
 			<stat name="initiative" value="intelligence:modifier" />
 		</rules>
 	</element>
-
 	<element name="Battlewise" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_BATTLEWISE">
 		<prerequisite>Wisdom 13 or higher</prerequisite>
 		<requirements>[wis:13]</requirements>
@@ -42,7 +45,6 @@
 			<stat name="initiative" value="wisdom:modifier" />
 		</rules>
 	</element>
-	
 	<element name="Blight Touched" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_BLIGHT_TOUCHED">
 		<description>
 			<p>The ever-hungry spirit of nature inhabits you, granting you the following benefits:</p>
@@ -106,7 +108,6 @@
 			<description>You can change the damage type of an instance of plant-based spell effect to necrotic, regaining half of the necrotic damage dealt this way as hit points.</description>
 		</sheet>
 	</element>
-	
 	<element name="Child of Twilight" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_CHILD_OF_TWILIGHT">
 		<description>
 			<p>You play with light and darkness like artists create and warriors wield weapons, you gain the following benefits:</p>
@@ -164,7 +165,6 @@
 			</description>
 		</sheet>
 	</element>
-
 	<element name="Fey Explorer" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_FEY_EXPLORER">
 		<description>
 			<p>You are accustomed to the eerie and fleeting paths present in the fey realms. You gain the following benefits:</p>
@@ -181,7 +181,6 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase, Fey Wanderer" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM" />
 		</rules>
 	</element>
-	
 	<element name="Free Soul" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_FREE_SOUL">
 		<description>
 			<p>You have learned to partially detach your body from worldly constraints. You gain the following benefits:</p>
@@ -199,7 +198,6 @@
 			<stat name="speed:misc" value="10" />
 		</rules>
 	</element>
-	
 	<element name="Nimble" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_NIMBLE">
 		<description>
 			<p>You can leap from place to place with unnatural ease. You gain the following:</p>
@@ -218,7 +216,6 @@
 			<stat name="speed:climb" value="speed" bonus="base" />
 		</rules>
 	</element>
-	
 	<element name="Scroll Master" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_SCROLL_MASTER">
 		<description>
 			<p>You accumulate and exploit spell scrolls, recognizing the worth they provide. In doing so, you developed an uncanny knack to create and use them. You gain the following:</p>
@@ -234,7 +231,6 @@
 			<description>Scribing scrolls costs half as much gold and time. You can cast {{proficiency}} scrolls at once, none of which can be higher than level 3, gaining 1 level of exhaustion. Incease the attack bonus and DC of scrolls by 1, up to your bonuses.</description>
 		</sheet>
 	</element>
-	
 	<element name="Shadow Rover" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_SHADOW_ROVER">
 		<description>
 			<p>You are one with the shadows. While in darkness, you gain the following benefits:</p>
@@ -249,7 +245,6 @@
 			</description>
 		</sheet>
 	</element>	
-	
 	<element name="Otherworldly Mind" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_OTHERWORLDLY_MIND">
 		<description>
 			<p>You’ve been touched by the monstrosities that lie beyond the known world. Perhaps they attempted to make a thrall out of you and failed, or perhaps you sought them out willingly for god forsaken reasons of your own. You gain the following benefits:</p>
@@ -305,7 +300,6 @@
 			<stat name="charisma" value="1" alt="Otherworldly Mind" />
 		</rules>
 	</element>
-	
 	<element name="Party Animal" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_PARTY_ANIMAL">
 		<description>
 			<p>Through time, you’ve realized that the difference between a party and a battle is minimal. Both include crowds, sweat and erratic movement, and you love it. You gain the following benefits:</p>
@@ -322,7 +316,6 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase, Party Animal" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CHARISMA" />
 		</rules>
 	</element>	
-	
 	<element name="Weapon Specialist" type="Feat" source="zambonidnd - campaign one" id="ID_DNDC1_FEAT_WEAPON_SPECIALIST">
 		<prerequisite>Strength or Dexterity 13 or higher</prerequisite>
 		<requirements>([str:13]||[dex:13])</requirements>
@@ -342,5 +335,4 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase, Weapon Specialist" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
 		</rules>
 	</element>
-	
 </elements>
