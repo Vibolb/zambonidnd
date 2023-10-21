@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Astute" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_ASTUTE">
+		<description>
+			<p>Your mind is lightning quick, enabling you to rapidly analyze and learn from your mistakes. You gain the following benefits:</p>
+			<ul>
+				<li>Your Intelligence increases by 1, to a maximum of 20.</li>
+				<li>You use Intelligence, instead of Dexterity, when calculating initiative.</li>
+				<li>When you miss an attack roll or fail an ability check or saving throw or witness someone doing so, you can use your reaction to analyze the failure. The next time you try to perform the same task or resist the same effect before you finish a short or long rest, you have advantage on the roll. You can use your reaction this way a number of times equal to half your proficiency bonus, rounded up, then you must finish a long rest before being able to do so again.</li>
+			</ul>
+		</description>
+		<sheet action="Reaction" usage="{{proficiency:half:up}}/Long Rest">
+			<description> You analyze a failed attack roll, ability check or saving throw. The next time you try to perform the same task or resist the same effect before you finish a rest, you have advantage on the roll.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<stat name="initiative" value="-dexterity:modifier" />
+			<stat name="initiative" value="intelligence:modifier" />
+		</rules>
+	</element>
+
+	<element name="Battlewise" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_BATTLEWISE">
+		<prerequisite>Wisdom 13 or higher</prerequisite>
+		<requirements>[wis:13]</requirements>
+		<description>
+			<p><em>Prerequisite: Wisdom 13 or higher</em></p>
+			<p>Your experience on the battlefield has harden you and gifted you with tactical instinct, you gain the following benefits:</p>
+			<ul>
+				<li>Your Constitution or Wisdom Score increases by 1, to a maximum of 20.</li>
+				<li>You gain a bonus to initiative equal to your Wisdom modifier.</li>
+				<li>You can use the Help action as a bonus action.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> You can use the Help action as a bonus action.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Battlewise" supports="ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_WISDOM" />
+			<stat name="initiative" value="wisdom:modifier" />
+		</rules>
+	</element>
+	
+	<element name="Blight Touched" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_BLIGHT_TOUCHED">
+		<description>
+			<p>The ever-hungry spirit of nature inhabits you, granting you the following benefits:</p>
+			<ul>
+				<li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+				<li>You learn the <i>spike growth</i> spell and can cast it without expending a spell slot. Once you cast it in this way, you can't do so again until you finish a long rest. You can also cast it using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</li>
+				<li>When dealing an instance of damage with plants or trees of any kind conjured by a spell, you can change the damage type to necrotic. If you do so, you regain an amount of hit points equal to half the necrotic damage dealt. You can use this feature a number of times equal to your proficiency bonus, then you can’t do so again until you finish a long rest.</li>
+			</ul>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Ability Score Increase, Blight Touched" supports="DNDC1 Blight Touched" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" />
+			<grant type="Feat Feature" id="ID_DNDC1_BLIGHT_TOUCHED_NATURES_HUNGER" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>DNDC1 Blight Touched</supports>
+		<description>
+			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
+		</description>
+		<sheet alt="Blight Touched">
+			<description>You can cast <i>spike growth</i> without a spell slot once per long rest. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for this spell is Intelligence.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Blight Touched" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_WISDOM">
+		<compendium display="false" />
+		<supports>DNDC1 Blight Touched</supports>
+		<description>
+			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
+		</description>
+		<sheet alt="Blight Touched">
+			<description>You can cast <i>spike growth</i> without a spell slot once per long rest. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for this spell is Wisdom.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Blight Touched" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_CHARISMA">
+		<compendium display="false" />
+		<supports>DNDC1 Blight Touched</supports>
+		<description>
+			<p>Increase your Charisma by 1, to a maximum of 20.</p>
+		</description>
+		<sheet alt="Blight Touched">
+			<description>You can cast <i>spike growth</i> without a spell slot once per long rest. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for this spell is Charisma.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Blight Touched" />
+		</rules>
+	</element>
+	<element name="Nature's Hunger" type="Feat Feature" source="DNDC1" id="ID_DNDC1_BLIGHT_TOUCHED_NATURES_HUNGER">
+		<description>
+			<p>You can change the damage type of an instance of plant-based spell effect to necrotic, regaining half of the necrotic damage dealt this way as hit points. You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>You can change the damage type of an instance of plant-based spell effect to necrotic, regaining half of the necrotic damage dealt this way as hit points.</description>
+		</sheet>
+	</element>
+	
+	<element name="Child of Twilight" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_CHILD_OF_TWILIGHT">
+		<description>
+			<p>You play with light and darkness like artists create and warriors wield weapons, you gain the following benefits:</p>
+			<ul>
+				<li>Whenever you deal radiant damage you can change the damage type to necrotic and vice-versa.</li>
+				<li>As a bonus action, you can enter a state of twilight for one minute, which ends early if your are incapacitated. During that time, you can choose to treat lighting levels in any or all areas within 60 feet of you as either one step higher or one step lower. You can use that feature a number of times equal to your proficiency bonus, you regain the ability to use it when you complete a long rest.</li>
+				<li>You learn the <i>eclipsian bolt</i> spell and can cast it without expending a spell slot. Once you cast it in this way, you can't do so again until you finish a long rest. You can also cast it using spell slots you have of the appropriate level. The spells' spellcasting ability is your choice of Intelligence, Wisdom, or Charisma.</li>
+			</ul>
+			<div class="reference">
+				<div element="ID_DNDC1_SPELL_ECLIPSIAN_BOLT" />
+			</div>
+		</description>
+		<sheet>
+			<description> Whenever you deal radiant damage you can change to damage type to necrotic and vice-versa.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Feat Feature" id="ID_DNDC1_CHIAROSCURO" />
+			<grant type="Spell" id="ID_DNDC1_SPELL_ECLIPSIAN_BOLT" />
+		</rules>
+	</element>	
+	<element name="Chiaroscuro" type="Feat Feature" source="DNDC1" id="ID_DNDC1_CHIAROSCURO">
+		<description>
+			<p>As a bonus action, you can enter a state of twilight for one minute, which ends early if you are incapacitated. During that time, you can choose to treat lighting levels in any or all areas within 60 feet of you as either one step higher or one step lower for any or all of your features and abilities. You can use that feature a number of times equal to your proficiency bonus, you regain the ability to use it when you complete a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>You enter a state of twilight during which you can choose to treat lighting levels in any or all areas within 60 feet of you as either one step higher or one step lower.</description>
+		</sheet>
+	</element>
+	<element name="Sun Blessed" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_SUN_BLESSED">
+		<description>
+			<p>You are one with the light. While in bright light, you have advantage on saving throws against the frightened condition. You have a number of radiance charges equal to your proficiency bonus which you regain after a long rest and can spend to use the following abilities:</p>
+			<ul>
+				<li>As a bonus action, you become a beacon of radiance for 1 minute, or until you end it (no action required). During that time, you shed bright sunlight in a 5-foot radius and dim light for an additional 5 feet. Creatures of your choice within the bright light have resistance to radiant damage, reduce all damages they take by 1 and have advantage on death saving throws. </li>
+				<li>At the beginning of your turn, if you are in sunlight, provided you can take actions, you can sacrifice your whole turn to become a chrysalis of light until the start of your next turn. You can spend a number of hit dice up to your proficiency bonus. Roll each dice spent, adding your constitution modifier. You gain temporary hit points equal to the total. While the chrysalis lasts, you are incapacitated, can’t move, have advantage on strength saving throws and automatically fail dexterity saving throws. At the beginning of your next turn, the chrysalis ends, you lose it's remaining temporaty hit points and you regain as many hit points as you initially got temporary hit points. It ends early without healing you if you become unconscious.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> While in bright light, you have advantage on saving throws against the frightened condition.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Feat Feature" id="ID_DNDC1_RADIANCE_CHARGES" />
+		</rules>
+	</element>	
+	<element name="Radiance Charges" type="Feat Feature" source="DNDC1" id="ID_DNDC1_RADIANCE_CHARGES">
+		<description>
+			<p></p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>
+				
+				As a bonus action, you become a beacon of radiance for 1 minute, or until you end it (no action required). During that time, you shed bright sunlight in a 5-foot radius and dim sunlight for an additional 5 feet. Creatures of your choice within the bright light have resistance to radiant damage, reduce all damages they take by 1 and have advantage on death saving throws.
+				If you are in sunlight and able to act, you can sacrifice your whole turn to become a chrysalis of light until the start of your next turn. You can spend up to {{proficiency}} hit dice. Roll each dice and add your constitution modifier. You gain temporary hit points equal to the total. While the chrysalis lasts, you are incapacitated, can’t move, have advantage on strength saving throws and automatically fail dexterity saving throws. At the beginning of your next turn, the chrysalis ends, you lose it's remaining temporaty hit points and you regain as many hit points as you initially got temporary hit points. It ends early without healing you if you become unconscious.
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Fey Explorer" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_FEY_EXPLORER">
+		<description>
+			<p>You are accustomed to the eerie and fleeting paths present in the fey realms. You gain the following benefits:</p>
+			<ul>
+				<li>Your Intelligence or Wisdom Score increases by 1 to a maximum of 20.</li>
+				<li>You cannot get lost by magical or non-magical means, and have on +5 bonus to checks and saves against illusions.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> You cannot get lost by magical or non-magical means, and have on +5 bonus to checks and saves against illusions.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Fey Wanderer" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM" />
+		</rules>
+	</element>
+	
+	<element name="Free Soul" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_FREE_SOUL">
+		<description>
+			<p>You have learned to partially detach your body from worldly constraints. You gain the following benefits:</p>
+			<ul>
+				<li>Your speed increases by 10 feet.</li>
+				<li>Your jump distance is doubled.</li>
+				<li>When you take the dash action, not having a running start does not reduce your jump distance and you can change direction mid jump. Your jump ends if the total distance travelled across one axis reaches your long or standing jump distance limit.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> Your jump distance is doubled. When you take the dash action, not having a running start does not reduce your jump distance and you can change direction mid jump.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="speed:misc" value="10" />
+		</rules>
+	</element>
+	
+	<element name="Nimble" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_NIMBLE">
+		<description>
+			<p>You can leap from place to place with unnatural ease. You gain the following:</p>
+			<ul>
+				<li>Your Dexterity or Strength score increases by 1 to a maximum of 20.</li>
+				<li>You gain a climbing speed equal to your walking speed.</li>
+				<li>You can use Dexterity instead of Strength to calculate jumping distances and if you use Strength, your jumping distance is doubled.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> You can use Dexterity instead of Strength to calculate jumping distances and if you use Strength, your jumping distance is doubled.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Nimble" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<stat name="speed:climb" value="speed" bonus="base" />
+		</rules>
+	</element>
+	
+	<element name="Scroll Master" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_SCROLL_MASTER">
+		<description>
+			<p>You accumulate and exploit spell scrolls, recognizing the worth they provide. In doing so, you developed an uncanny knack to create and use them. You gain the following:</p>
+			<ul>
+				<li>The gold and time you must spend to scribe scrolls is reduced by half.</li>
+				<li>As an action, you can expend and cast a number of spell scrolls up to your proficiency bonus at once, none of which can be higher than level 3. 
+				The spells must require an action to cast. You select all targets and effects for all spells before they go off simultaneously. 
+				Effects are rolled in a randomly determined order by the GM, but they happen all at once. You then gain a level of exhaustion.</li>
+				<li>When you cast a spell through a scroll, it’s attack bonus and/or DC increase by one, up to your bonuses.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Scribing scrolls costs half as much gold and time. You can cast {{proficiency}} scrolls at once, none of which can be higher than level 3, gaining 1 level of exhaustion. Incease the attack bonus and DC of scrolls by 1, up to your bonuses.</description>
+		</sheet>
+	</element>
+	
+	<element name="Shadow Rover" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_SHADOW_ROVER">
+		<description>
+			<p>You are one with the shadows. While in darkness, you gain the following benefits:</p>
+			<ul>
+				<li>You can add 1d4 to acrobatics, deception, sleight of hands and stealth checks you make.</li>
+				<li>Your movement speed increases by 10 feet.</li>
+				<li>When you score a critical hit, you deal an additional 1d8 necrotic damage, as the shadows attack the target.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> While in darkness, you can add 1d4 to acrobatics, deception, and sleight of hand checks, your movement speed increases by 10 feet and your critical hits deal one additionnal 1d8 necrotic damage.
+			</description>
+		</sheet>
+	</element>	
+	
+	<element name="Otherworldly Mind" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_OTHERWORLDLY_MIND">
+		<description>
+			<p>You’ve been touched by the monstrosities that lie beyond the known world. Perhaps they attempted to make a thrall out of you and failed, or perhaps you sought them out willingly for god forsaken reasons of your own. You gain the following benefits:</p>
+			<ul>
+				<li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+				<li>You learn the <i>command</i> and <i>detect thoughts</i> spells. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</li>
+				<li>If you attempt to probe deeper into a creature’s mind with <i>detect thoughts</i>, you can make the contested ability check with that creature using the ability score you increased with the feat. On a success, the creature doesn’t notice that you are peering into their mind.</li>
+			</ul>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Ability Score Increase, Otherworldly Mind" supports="DNDC1 Otherworldly Mind" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Feat Feature" source="DNDC1" id="ID_DNDC1_OTHERWORLDLY_MIND_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>DNDC1 Otherworldly Mind</supports>
+		<description>
+			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
+		</description>
+		<sheet alt="Otherworldly Mind">
+			<description>When you succeed on the contested ability check of <i>detect thoughts</i>, the creature does not notice you are peering into their mind. You can cast this feat’s spells without a spell slot once per long rest. You can also cast these spells using spell slots you have of the appropriate level. Your spellcasting ability for these spells is Intelligence.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" alt="Otherworldly Mind" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Feat Feature" source="DNDC1" id="ID_DNDC1_OTHERWORLDLY_MIND_WISDOM">
+		<compendium display="false" />
+		<supports>DNDC1 Otherworldly Mind</supports>
+		<description>
+			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
+		</description>
+		<sheet alt="Otherworldly Mind">
+			<description>When you succeed on the contested ability check of <i>detect thoughts</i>, the creature does not notice you are peering into their mind. You can make that check using Wisdom. You can cast this feat’s spells without a spell slot once per long rest. You can also cast these spells using spell slots you have of the appropriate level. Your spellcasting ability for these spells is Wisdom.</description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" alt="Otherworldly Mind" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Feat Feature" source="DNDC1" id="ID_DNDC1_OTHERWORLDLY_MIND_CHARISMA">
+		<compendium display="false" />
+		<supports>DNDC1 Otherworldly Mind</supports>
+		<description>
+			<p>Increase your Charisma by 1, to a maximum of 20.</p>
+		</description>
+		<sheet alt="Otherworldly Mind">
+			<description>When you succeed on the contested ability check of <i>detect thoughts</i>, the creature does not notice you are peering into their mind. You can make that check using Charisma. You can cast this feat’s spells without a spell slot once per long rest. You can also cast these spells using spell slots you have of the appropriate level. Your spellcasting ability for these spells is Charisma.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" alt="Otherworldly Mind" />
+		</rules>
+	</element>
+	
+	<element name="Party Animal" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_PARTY_ANIMAL">
+		<description>
+			<p>Through time, you’ve realized that the difference between a party and a battle is minimal. Both include crowds, sweat and erratic movement, and you love it. You gain the following benefits:</p>
+			<ul>
+				<li>Your Strength, Dexterity or Charisma score increases by 1, to a maximum of 20.</li>
+				<li>Whenever there are 3 or more hostile creatures of CR ¼ or higher within 10 feet of you, you gain a +1 bonus to your AC, attack and damage rolls.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> henever there are 3 or more hostile creatures of CR ¼ or higher within 10 feet of you, you gain a +1 bonus to your AC, attack and damage rolls.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Party Animal" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CHARISMA" />
+		</rules>
+	</element>	
+	
+	<element name="Weapon Specialist" type="Feat" source="DNDC1" id="ID_DNDC1_FEAT_WEAPON_SPECIALIST">
+		<prerequisite>Strength or Dexterity 13 or higher</prerequisite>
+		<requirements>([str:13]||[dex:13])</requirements>
+		<description>
+			<p><em>Prerequisite: Strength or Dexterity 13 or higher</em></p>
+			<p>You have spent countless hours of focused training and study with a selected weapon. As you become one with this chosen weapon, you reach levels of deadly accuracy that few others could begin to fathom. You gain the following benefits:</p>
+			<ul>
+				<li>Your Strength or Dexterity Score increases by 1, to a maximum of 20.</li>
+				<li>Your critical range with a weapon of your choice increases by 1.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description> Your critical range with a weapon of your choice increases by 1.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Weapon Specialist" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+		</rules>
+	</element>
+	
+</elements>

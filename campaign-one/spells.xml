@@ -662,4 +662,25 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Eclispian Bolt" type="Spell" source="DNDC1" id="ID_DNDC1_SPELL_ECLIPSIAN_BOLT">
+		<supports></supports>
+		<description>
+			<p>You hurl a bolt in the shape of a miniature sun at a creature within range. Make a ranged spell attack. On a hit, you deal 3d4 radiant damage and leave a sun mark on the target. While marked this way, the target shed bright light in a 5-foot radius and dim light for an additional 5 feet, this light counts as sunlight. Starting at the beginning of your next turn, at anytime while the spell lasts, you can use a free action to eclipse the sun mark. When the sun mark eclipses, it deals 3d4 necrotic damage to the marked target, and creates a 10-foot radius circle of magical darkness centered on the creature. This area lasts for the spell’s duration.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, both damage increase by 1d4 for every slot above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">90 ft.</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 </elements>
