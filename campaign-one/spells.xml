@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Spells</name>
-        <update version="1.0.5">
+        <update version="1.1.0">
             <file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/spells.xml" name="spells.xml" />
         </update>
     </info>
