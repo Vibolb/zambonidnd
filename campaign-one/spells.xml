@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Spells</name>
-        <update version="1.1.0">
+        <update version="1.1.1">
             <file url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/spells.xml" name="spells.xml" />
         </update>
     </info>
@@ -683,4 +683,134 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+    <element name="Angler's Charm" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_ANGLERS_CHARM">
+        <supports>Bard, Druid, Warlock</supports>
+		<description>
+			<p>You hold your hand up and cause a warm but brilliant light to shine from your palm, which provides 60 feet of dim light. Each creature that can see you and this light within 60 feet of you must succeed on a Wisdom saving throw or become a Charmed for the duration</p>
+            <p>While charmed in this way, they must use their action on each turns to take the dash action to move to a space within 5 feet. If they are already within 5 feet of you, they must use their action to sit down and do nothing else. While a creature is charmed in this way, all attack rolls against them have advantage. The creature remakes their initial saving throw each time they take damage, or at the end of each of their turns, ending this effect upon a success.</p>
+        </description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (60-foot radius)</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a shard of glowstone or a fish lure</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+    </element>
+    <element name="Mending Tide" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_MENDING_TIDE">
+        <supports>Cleric, Druid, Ranger</supports>
+		<description>
+			<p>You turn a tide of water into magic that mends wounds. One creature of your choice within range regains hit points equal to 1d6 + your spellcasting ability modifier. This spell has no effect on undead or constructs. If there is a source of water of at least 5 cubic feet within 5 feet of you when you cast the spell, you can cause the healing water to bounce to an additional target within range, healing causing them to regain hit points equal to 1d6 + your spellcasting ability modifier. A creature can only be affected once per casting of this spell</p>
+            <p><strong>Rushed</strong>You can cast this spell as a reaction. When you do, the mending water does not bounce to additional targets.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the healing water bounces to an additional target after the first for each level above 2nd, healing them for 1d6 hit points.</p>
+        </description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">15 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+    </element>
+    <element name="Morning Tide" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_MORNING_TIDE">
+        <supports>Cleric, Druid, Paladin</supports>
+		<description>
+			<p>A 10-foot radius sphere of glittering water emerges from a point of your choice within 30 feet of you. The sphere is bright light, sheds dim light for an additional 10 feet, and lasts for the duration of the spell. If there is a source of water of at least 5 cubic feet within 5 feet of you when you cast the spell, you can enhance the sphere. Each creature of your choice within the enhanced sphere when it appears must succeed on a Constitution saving throw or become blinded until the end of your next turn. </p>
+            <p>If any of this spell's area overlaps with an area of darkness created by a spell of 3rd level or lower, the effect of the darkness in the overlapping portions subsides for the duration of the spell.</p>
+        </description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet (10-foot radius)</set>
+			<set name="duration">10 minutes</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+    </element>
+    <element name="Sea's Embrace" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_SEAS_EMBRACE">
+        <supports>Cleric, Druid, Ranger, Wizard</supports>
+		<description>
+			<p>You surround a creature within range with a barrier of swirling water. It gains 2d8 temporary hit points, which are lost when the spell ends. For the duration of the spell, the creature has advantage on Dexterity saving throws.</p>
+            <p><strong>Rushed</strong>You can cast this spell as a reaction. When you do, its duration becomes 1 round, and the target only gains 1d8 temporary hit points.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+        </description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">15 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a vial of seawater</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+    </element>
+    <element name="Undertow" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_UNDERTOW">
+        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You cause spectral waves to appear and pull inwards. Each creature within 30 feet of you when you cast this spell must succeed on a Strength saving throw or be knocked prone and pulled 20 feet closer to you.</p>
+            <p>For the duration, the area within 30 feet of you is considered difficult terrain for other creatures, and, as a bonus action on subsequent turns, you can force a target within this radius to makes a Strength saving throw or be knocked prone and pulled 20 feet closer to you. </p>
+            <p>Creatures submerged in water have disadvantage on their saving throws to resist this spell.</p>
+        </description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (30-foot radius)</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a seashell or a pearl</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+    </element>    
+    <element name="Whispers from Below" type="Spell" source="zambonidnd - campaign one" id="ID_DNDC1_SPELL_SEAS_EMBRACE">
+        <supports>Druid, Sorcerer, Warlock</supports>
+		<description>
+			<p>Choose a creature within range. You recreate whispers from below, muddling its mind. It must succeed on a Wisdom saving throw or become charmed for the duration of the spell. While charmed in this way, the creature knows Deep Speech and uses its movement on each of its turns to get close to the nearest water.</p>
+            <p>Upon reaching a water source, the creature is no longer charmed and becomes frightened for the duration of the spell. While frightened, the creature loses its swimming speed (if it had one) and cannot willingly leave the water (it can still come up for air). A creature under the effects of this spell can repeat the saving throw at the end of each of its turns, ending the condition on a success.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.</p>
+        </description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">the eye of a monstrous fish</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+    </element>
 </elements>
