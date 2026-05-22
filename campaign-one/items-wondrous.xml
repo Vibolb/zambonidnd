@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous items</name>
-		<update version="1.0.0">
+		<update version="1.1.0">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Vibolb/zambonidnd/master/campaign-one/items-wondrous.xml" />
 		</update>
 	</info>
@@ -945,6 +945,70 @@
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Bloodwright Covenant" type="Magic Item" source="zambonidnd - campaign one" id="ID_DNDC1_WONDROUS_ITEM_EXPERIMENTAL_CLOCKWORK_TRAP">
+		<description>
+			<p>
+				<em>
+					The noble and ever-important dedication to maintain nature's balance - keeping the material plane in its most elemental state 
+					- was not always championed by the Celestial Guardians.  Countless druidic circles and like-minded advocates, ranging from barely 
+					sentient creatures defending their territory to deities protecting the integrity of the cosmos, have fought against imbalance. 
+					Shifters were sometimes known as extremists, other times as deranged. They fought heads on against the growth of civilization, 
+					categorically refusing to wear anything that was manufactured, embodying the wrath of nature. In their unyielding fight against 
+					anything not primal they, with hindsight, were the ones who foresaw the Invasion. They were, ironically, the first line of defense 
+					of humanity against the unending waves of demons that poured directly from hell, having to protect the very thing they despised, 
+					against the very thing they tried to prevent. Druids were never the same after, only shifting into benign animals, fighting with 
+					humanity rather than against it. Hence were elected the Celestials Guardians as the keepers of balance; the guidance of the stars 
+					is something we may all agree upon.
+				</em>
+			</p>
+			<p>
+				In a last-ditch effort to preserve their knowledge and purpose, the last Shifters transferred their powers into stones made from their 
+				blood and crafted holy necklaces to carry them. Each such necklace may hold 5 Shifter bloodstones. Independently of the number of 
+				incorporated bloodstones, a necklace only requires one attunement slot. While attuned to this item you:
+				<ul>
+					<li>
+						Count as a shapeshifter.
+					</li>
+					<li>
+						Can substitute the components (except components with a cost) of a spell you are casting by bloodletting. Bloodletting requires
+						 no action and makes you spend and roll a hit die, taking unpreventable necrotic damage equal to the number rolled plus the 
+						 level of the spell cast. This creates apparent wounds in intricate design on your body that seep blood for a number of round 
+						 equal to the level of the spell cast (incurring no damage but being detectable).
+					</li>
+					<li>
+						Gain the benefits of its imbued bloodstones.
+					</li>
+				</ul>
+			</p>
+			<p>
+				When you find this specific necklace, it has the following bloodstones imbued:
+				<ul>
+					<li>
+						<strong>Bloodstone</strong>: Phytomorph. You can Wildshape into plants, following all the existing rules of your Wildshape feature.
+					</li>
+					<li>
+						<strong>Bloodstone: Omniglot.</strong> While Wildshaped, you can communicate with all creatures sharing your type as if you were sharing a language. 
+						The complexity of your communication may be limited by the interlocutor's intelligence. At the very least, they may communicate 
+						primal instincts. Additionally, if you can Wildshape into plants, you may cast Speak with Plants once per transformation, up to 
+						a number of times per day equal to your proficiency bonus.
+					</li>
+					<li>
+						<strong>Bloodstone: Might. </strong> The save DC of all features and abilities of your Wildshapes is increased by 2.
+					</li>
+				</ul>
+			</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, convenant, crown, head</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp"></set>
+			<set name="slot">head</set>
+			<set name="weight" lb="1.5">1.5 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement"  addition="by a druid">true</set>
+			<set name="rarity">very rare</set>
 		</setters>
 	</element>
 </elements>
